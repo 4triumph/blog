@@ -1,9 +1,9 @@
 interface Project {
-  banner: string; // 图片链接
-  title: string; // 项目标题
-  description: string; // 项目简介
-  link: string; // 项目链接
-  tag?: string; // 项目标签
+  banner: string // 图片链接
+  title: string // 项目标题
+  description: string // 项目简介
+  link: string // 项目链接
+  tag?: string // 项目标签
 }
 
 /**
@@ -12,20 +12,46 @@ interface Project {
  */
 export const projectsInfo: Project[] = [
   {
-    banner: "../views/img/1.jpg", 
-    title: "TickClock",
-    description:
-      " A time management software. Designed with react-native, react ,antd ,expo ,Tick-Clock It is a time management software supports web, ios, and Android. Your daily life partner. 我的大一课设： 滴答时钟--是一个简洁的时钟管家。",
-    link: "https://github.com/LofiSu/tick-clock",
-    tag: "TypeScript React-Native",
+    banner: '/project-img/gpt-feishu.png',
+    title: 'Feishu&ChatGPT',
+    description: '将 chatGPT 接入飞书对话机器人，支持上下文对话与人格预设，并使用aircode一键部署',
+    link: 'https://github.com/ZbWeR/feishu-chatGPT-plus-aircode',
+    tag: 'JavaScript'
   },
-    {
-    banner: "../views/img/2.jpg", 
-    title: "KawaResume",
-    description:
-      "A simple and beautiful resume template.  KawaResume It is a simple and beautiful resume template supports web. ",
-    link: "https://github.com/LofiSu/kawa-resume",
-    tag: "TailwindCSS React",
+  {
+    banner: '/project-img/cloudMusic.png',
+    title: 'CloudMusic',
+    description: '对移动端网易云音乐的模仿与复现，实现了虚拟列表与无限滚动...',
+    link: 'https://github.com/ZbWeR/NeteaseCloudMusic',
+    tag: 'Vue'
   },
-
-];
+  {
+    banner: '/project-img/analyze-tool.png',
+    title: 'Npm Analyze-tool',
+    description: '一款用于可视化分析项目依赖关系的命令行工（第六届字节跳动前端青训大项目三等奖）',
+    link: 'https://github.com/jonlyes/packageResolution',
+    tag: 'TypeScript'
+  },
+  {
+    banner: '/project-img/dora-bot.png',
+    title: 'Dora-bot',
+    description:
+      '基于 go-cqhttp 框架开发的QQ聊天机器人，接入 mongodb 存储消息记录以实现虚假的学习功能.',
+    link: 'https://github.com/ZbWeR/qqbot-Dora',
+    tag: 'Python'
+  },
+  {
+    banner: '/project-img/ruleMining.png',
+    title: 'Rule Mining',
+    description: '采用 Apriori / Fpgrowth / Eclat 算法对超市商品数据集进行关联规则的挖掘.',
+    link: 'https://github.com/ZbWeR/Association-rule-mining',
+    tag: 'Python'
+  },
+  {
+    banner: '/project-img/dinosaur.png',
+    title: 'Dinosaur-Game',
+    description: '基于 EasyX 开发的一款游戏内容更加丰富的谷歌断网小恐龙游戏.',
+    link: 'https://github.com/ZbWeR/Dinosaur-Game',
+    tag: 'C++'
+  }
+]

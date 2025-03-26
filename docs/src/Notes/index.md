@@ -2,13 +2,13 @@
 layout: page
 sidebar: false
 hero:
-  title: 💭 Blogs
-  subTitle: 📚 Blog Square.
+  title: Blogs
+  subTitle: 想吃巧克力抹茶千层蛋糕.
 types:
   - name: 面经分享
     desc: |-
       Interview experiences
-      27 届前端求职记录
+      25 届卑微前端求职记录
     link: /Notes/Interviews/
     icon: "\U0001F4DD"
   - name: 学习笔记
@@ -22,7 +22,7 @@ types:
       Personal musings
       总要有个写东西的地方
     link: /Notes/Thoughts/
-updateTime: '2024-10-12 13:30'
+updateTime: '2024-09-22 22:05'
 ---
 
 <script setup>

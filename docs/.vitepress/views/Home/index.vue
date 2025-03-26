@@ -2,7 +2,7 @@
   <div class="home flex h-screen w-screen items-center justify-center">
     <EmojiBackground />
     <div class=" -mt-10 sm:-mt-40 flex w-screen animate-scale-in-center flex-col px-4 sm:w-[626px]">
-      <img src="../img/logo.jpg" class="block w-48 h-48 mx-auto rounded-full animate-bounce-border" />
+      <img src="../img/avatar.jpg" class="block w-48 h-48 mx-auto rounded-full animate-bounce-border" />
       <div
         class="mt-6 flex w-full flex-col items-center rounded-lg bg-white/70 py-6 text-zinc-800 shadow shadow-black/40 backdrop-blur-sm relative"
         data-aos="fade-in" data-aos-duration="1000">
