@@ -2,13 +2,14 @@
   <div class="mt-2 px-6 pb-24 md:px-12 md:pb-32 lg:px-16">
     <div class="mx-auto flex max-w-6xl flex-col items-center justify-center">
       <!-- 头像与徽章 -->
-      <div class="relative mx-auto w-full">
+      <div class="relative flex justify-center items-center mx-auto w-full">
         <!-- 头像 -->
         <div class="relative h-52 py-2">
           <div
-            class="avatar-ping absolute left-1/2 top-1/2 mx-auto h-48 w-48 rounded-full shadow-[0px_0px_3px#147eae] dark:shadow-[0px_0px_3px#9ba0a9]"
-          ></div>
-          <img class="mx-auto block h-48 w-48 rounded-full" src="./img/avatar.jpg" alt="avatar" />
+            class="relative h-48 w-48 rounded-full shadow-[0px_0px_8px#147eae] dark:shadow-[0px_0px_8px#9ba0a9]"
+          >
+          <img class="mx-auto block h-48 w-48 rounded-full" src="./img/avatar.jpg" alt="avatar" /></div>
+          
         </div>
         <!-- Right-tags -->
         <p
