@@ -3,26 +3,26 @@ layout: page
 sidebar: false
 hero:
   title: Blogs
-  subTitle: 想吃巧克力抹茶千层蛋糕.
+  subTitle: 想喝台茶乌龙弹珠牛奶.
 types:
-  - name: 面经分享
+  - name: 金融学习
     desc: |-
-      Interview experiences
-      25 届卑微前端求职记录
-    link: /Notes/Interviews/
+      Financial Learning
+      玩金融的心都脏（bushi）
+    link: /Notes/Finance/《财务尽职调查》
     icon: "\U0001F4DD"
   - name: 学习笔记
     desc: |-
       Learning Notes
-      我那磕磕绊绊的开发之路
-    link: /Notes/Learning/
+      脑子一抽开始开发
+    link: /Notes/项目/学生管理系统
     icon: "\U0001F3C3"
   - name: 随想杂文
     desc: |-
       Personal musings
       总要有个写东西的地方
     link: /Notes/Thoughts/
-updateTime: '2024-09-22 22:05'
+updateTime: '2025-03-27 01:05'
 ---
 
 <script setup>

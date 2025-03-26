@@ -6,7 +6,7 @@
         <!-- 头像 -->
         <div class="relative h-52 py-2">
           <div
-            class="relative h-48 w-48 rounded-full shadow-[0px_0px_8px#147eae] dark:shadow-[0px_0px_8px#9ba0a9]"
+            class="relative h-48 w-48 rounded-full shadow-[0px_0px_16px#d8b4fe] dark:shadow-[0px_0px_16px#8b5cf6]"
           >
           <img class="mx-auto block h-48 w-48 rounded-full" src="./img/avatar.jpg" alt="avatar" /></div>
           
