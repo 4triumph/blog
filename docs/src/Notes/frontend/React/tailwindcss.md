@@ -1,3 +1,9 @@
+---
+updateTime: "2025-03-11 01:38"
+desc: "ui"
+tags: "组件/工具"
+outline: 2
+---
 # tailwindcss
 
 ## pnpm 安装

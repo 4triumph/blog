@@ -1,3 +1,9 @@
+---
+updateTime: "2025-03-11 01:38"
+desc: "状态管理库"
+tags: "组件/工具"
+outline: 2
+---
 # Jotai
 
 ## 概念

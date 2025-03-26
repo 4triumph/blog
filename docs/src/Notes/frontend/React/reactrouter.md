@@ -1,3 +1,9 @@
+---
+updateTime: "2025-03-11 01:38"
+desc: "控制url渲染库"
+tags: "组件/工具"
+outline: 2
+---
 # react-router
 ## Outlet
 Outlet 是 React Router 中的一个组件，用于渲染嵌套路由的内容。
