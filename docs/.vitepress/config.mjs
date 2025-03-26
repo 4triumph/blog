@@ -2,15 +2,15 @@ import { defineConfig } from 'vitepress'
 import { fileURLToPath, URL } from 'node:url'
 import { getSidebar } from './utils/getSidebar'
 export default defineConfig({
-  title: "zbwer's Blog",
-  titleTemplate: 'zbwer',
+  title: "4triumph's Blog",
+  titleTemplate: '4triumph',
   // md 文件根目录
   srcDir: './src',
   lastUpdated: true,
   description:
-    "zbwer's tech blog: An undergraduate's journey through frontend development, sharing insights, tips, and experiences in web technologies.",
+    "4triumph's tech blog: An undergraduate's journey through frontend development, sharing insights, tips, and experiences in web technologies.",
   head: [
-    ['link', { rel: 'icon', href: '/logo.svg' }],
+    ["link", { rel: "icon", href: "/logo.png" }],
     [
       'script',
       {},
@@ -19,7 +19,7 @@ export default defineConfig({
     ['script', { defer: '', src: '/_vercel/insights/script.js' }]
   ],
   themeConfig: {
-    logo: '/logo.svg',
+    logo: "/logo.jpg",
     // 顶部导航栏
     nav: [
       { text: '👋 About', link: 'AboutMe.md' },
@@ -36,10 +36,10 @@ export default defineConfig({
       provider: 'local'
     },
     // 顶部导航栏左侧的社交平台跳转
-    socialLinks: [{ icon: 'github', link: 'https://github.com/ZbWeR' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/4triumph' }],
     // 首页底部版权声明
     footer: {
-      copyright: 'Copyright © 2023-present zbwer'
+      copyright: 'Copyright © 2025-present 4triumph'
     },
     // 文章内导航栏标题
     outlineTitle: '导航栏'

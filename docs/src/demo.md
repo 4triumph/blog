@@ -3,11 +3,11 @@
 layout: home
 
 hero:
-  name: "zbwer's Blog"
+  name: "4triumph's Blog"
   text: "Journey Through Frontend Developer"
   tagline: "🌱 - While There Is Life, There Is Hope - 🌟"
   image:
-    src: /logo.png
+    src: /logo.jpg
     alt: VitePress
   actions:
     - theme: brand

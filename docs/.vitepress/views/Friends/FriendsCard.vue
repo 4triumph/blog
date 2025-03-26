@@ -10,7 +10,7 @@
         class="VP-shadow h-14 w-14 flex-shrink-0 overflow-hidden rounded-full sm:h-[70px] sm:w-[70px]"
       >
         <img v-if="avatar" :src="avatar" :alt="name" />
-        <img v-else src="../img/avatar-fallback.png" alt="默认头像" />
+        <img v-else src="../img/avatar.jpg" alt="默认头像" />
       </div>
       <!-- 简介 -->
       <div class="flex-1">

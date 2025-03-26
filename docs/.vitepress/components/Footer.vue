@@ -4,14 +4,6 @@
     class="relative border-t px-6 pb-4 pt-8 text-center text-black/40 dark:border-zinc-800 dark:text-zinc-300/40 sm:pt-8"
   >
     <p class="text-sm font-medium">{{ footer.copyright }}</p>
-    <p class="text-sm font-medium">
-      Theme |
-      <LinkText
-        text="Easy-Vitepress-Blog"
-        link="https://github.com/ZbWeR/easy-vitepress-blog"
-        :icon="RiExternalLinkLine"
-      />
-    </p>
   </footer>
 </template>
 

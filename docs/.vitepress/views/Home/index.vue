@@ -8,10 +8,10 @@
         data-aos="fade-in" data-aos-duration="1000">
         <div class="text-2xl font-bold sm:text-3xl">
           <span class="shake-hand inline-block">👋</span> Hi, I am
-          <span class="bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">LofiSu</span>.
+          <span class="bg-gradient-to-r from-pink-500 to-rose-500 bg-clip-text text-transparent">4triumph</span>.
         </div>
-        <p class="mt-2 sm:text-lg text-base"> LofiSu's Tech Blog / Front-End Developer</p>
-        <p class="mt-1 text-black/50">“🚀You can call me Su. A software engineer. A lifelong learner. A
+        <p class="mt-2 sm:text-lg text-base"> 4triumph's Blog / Front-End Developer</p>
+        <p class="mt-1 text-black/50">“🚀A software engineer. A lifelong learner. A
           dreamer.”</p>
         <div class="mt-4 flex gap-4">
           <div @click="router.go('./AboutMe')"
@@ -40,7 +40,7 @@ const returnToTopRef = ref<HTMLElement | null>(null)
 
 const router = useRouter()
 const gotoGithub = () => {
-  window.open('https://github.com/LofiSu')
+  window.open('https://github.com/4triumph')
 }
 
 onMounted(() => {
