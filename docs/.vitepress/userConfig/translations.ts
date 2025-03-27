@@ -6,7 +6,11 @@
  * ! 并在该文件中将其名称进行替换。
  */
 export const fileName2Title: Record<string, string> = {
-  Interviews: '🏃 八股面经',
-  Learning: '🎨 学习笔记',
-  Thoughts: '🔮 随想杂文'
+  Finance: '💵 金融相关',
+  Projects: '💻 项目复盘',
+  Git: '🏃 工具使用',
+  Program: '🎨 笔试',
+  Thoughts: '🔮 随想杂文',
+  frontend: '💻 前端相关',
+  Interview: '💼 个人信息',
 }

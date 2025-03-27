@@ -9,7 +9,7 @@ types:
     desc: |-
       Financial Learning
       玩金融的心都脏（bushi）
-    link: /Notes/Finance/《财务尽职调查》
+    link: /Notes/Finance/
     icon: "\U0001F4DD"
   - name: 学习笔记
     desc: |-
