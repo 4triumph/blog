@@ -2,7 +2,7 @@
   <VPTeamPage>
     <VPTeamPageTitle>
       <template #title>🎯 Projects ✨</template>
-      <template #lead>My Open Source Projects</template>
+      <template #lead>随便转转...</template>
     </VPTeamPageTitle>
     <div class="px-6 md:px-12 lg:px-16">
       <div class="ProjectsContent">
