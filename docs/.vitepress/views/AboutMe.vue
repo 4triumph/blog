@@ -6,7 +6,7 @@
         <!-- 头像 -->
         <div class="relative h-52 py-2">
           <div
-            class="relative h-48 w-48 rounded-full shadow-[0px_0px_16px#d8b4fe] dark:shadow-[0px_0px_16px#8b5cf6]"
+            class="relative h-48 w-48 rounded-full shadow-[0px_0px_64px#d8b4fe] dark:shadow-[0px_0px_64px#8b5cf6]"
           >
             <img
               class="mx-auto block h-48 w-48 rounded-full"
@@ -47,7 +47,7 @@
         <div class="flex flex-col justify-between gap-5 md:flex-row md:gap-0">
           <!-- 概述 -->
           <div
-            class="flex w-full flex-col justify-center rounded-xl border bg-gradient-to-r from-sky-400 to-teal-400 px-8 py-4 text-white dark:border-slate-900 dark:from-sky-700 dark:to-teal-600 md:w-[59%]"
+            class="flex w-full flex-col justify-center rounded-xl border bg-gradient-to-r from-violet-400 to-sky-400 px-8 py-4 text-white dark:border-slate-900 dark:from-violet-700 dark:to-sky-600 md:w-[59%]"
           >
             <p class="text-lg text-slate-50">你好，很高兴认识你 👋</p>
             <h1
@@ -87,7 +87,7 @@
           </div> -->
           <!-- 倒计时 -->
           <div
-            class="bg-stripe w-full rounded-xl border bg-slate-50 p-4 dark:border-slate-900 dark:bg-slate-800 md:w-[39%]"
+            class="w-full md:w-[39%]"
           >
             <Countdown :eventData="countdownEvent" />
           </div>
