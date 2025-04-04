@@ -58,7 +58,7 @@
             <p class="text-slate-100">前端开发 / oc 🔥</p>
           </div>
           <!-- 箴言 -->
-          <div
+          <!--           <div
             class="bg-stripe w-full rounded-xl border bg-slate-50 p-4 dark:border-slate-900 dark:bg-slate-800 md:w-[39%]"
           >
             <p class="text-[12px]">箴言</p>
@@ -84,6 +84,12 @@
                 <span class="inline-block lg:hidden">Is Everywhere</span>
               </h1>
             </div>
+          </div> -->
+          <!-- 倒计时 -->
+          <div
+            class="bg-stripe w-full rounded-xl border bg-slate-50 p-4 dark:border-slate-900 dark:bg-slate-800 md:w-[39%]"
+          >
+            <Countdown :eventData="countdownEvent" />
           </div>
         </div>
       </div>
@@ -263,7 +269,9 @@
           ></div>
           <div class="relative flex h-full flex-col justify-between p-4">
             <p class="text-[12px] text-slate-50">体育运动</p>
-            <h1 class="mt-2 flex-1 text-4xl font-bold text-white">轮滑 | 羽毛球</h1>
+            <h1 class="mt-2 flex-1 text-4xl font-bold text-white">
+              轮滑 | 羽毛球
+            </h1>
             <p class="mt-2 self-end text-right text-sm text-slate-100">
               跃动青春
             </p>
@@ -274,7 +282,15 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+import Countdown from "../components/Widgets/Countdown.vue";
+
+const countdownEvent = ref({
+  name: "我的生日",
+  date: "2025-07-15", // 这里可以改成你需要倒计时的日期
+});
+</script>
 
 <style scoped>
 .honer-bg {
