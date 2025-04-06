@@ -57,38 +57,8 @@
             </h1>
             <p class="text-slate-100">前端开发 / oc 🔥</p>
           </div>
-          <!-- 箴言 -->
-          <!--           <div
-            class="bg-stripe w-full rounded-xl border bg-slate-50 p-4 dark:border-slate-900 dark:bg-slate-800 md:w-[39%]"
-          >
-            <p class="text-[12px]">箴言</p>
-            <div>
-              <h1 class="text-3xl leading-9">
-                <span class="hidden font-bold text-teal-400 md:inline-block"
-                  >Miracle&nbsp;
-                </span>
-                <span class="hidden lg:inline-block"> Is Everywhere</span>
-              </h1>
-              <h1
-                class="font-serif text-3xl tracking-widest md:text-2xl lg:text-3xl"
-              >
-                凡为<span class="font-bold text-sky-500">过往</span>皆为<span
-                  class="font-bold text-sky-500"
-                  >序章</span
-                >
-              </h1>
-              <h1 class="text-2xl leading-9 md:text-3xl">
-                <span class="inline-block font-bold text-teal-400 md:hidden"
-                  >Miracle&nbsp;
-                </span>
-                <span class="inline-block lg:hidden">Is Everywhere</span>
-              </h1>
-            </div>
-          </div> -->
           <!-- 倒计时 -->
-          <div
-            class="w-full md:w-[39%]"
-          >
+          <div class="w-full md:w-[39%]">
             <Countdown />
           </div>
         </div>
@@ -118,68 +88,8 @@
           class="w-full rounded-xl border bg-slate-50 p-4 dark:border-slate-900 dark:bg-slate-800 md:w-[62%]"
         >
           <p class="text-[12px]">技术栈</p>
-          <div class="mt-2 overflow-hidden">
-            <!-- TODO:封装ICON组件,抽离背景颜色与svg地址 -->
-            <div class="icon-scroll flex w-fit gap-4">
-              <div class="h-20 w-20 flex-shrink-0 rounded-lg bg-green-100 p-4">
-                <img src="./img/vue.svg" alt="" />
-              </div>
-              <div class="h-20 w-20 flex-shrink-0 rounded-lg bg-sky-100 p-4">
-                <img src="./img/react.png" alt="" />
-              </div>
-              <div class="h-20 w-20 flex-shrink-0 rounded-lg bg-red-100 p-4">
-                <img src="./img/html.svg" alt="" />
-              </div>
-              <div class="h-20 w-20 flex-shrink-0 rounded-lg bg-cyan-100 p-4">
-                <img src="./img/css.svg" alt="" />
-              </div>
-              <div
-                class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-yellow-300 p-4"
-              >
-                <img class="rounded-lg" src="./img/js.webp" alt="" />
-              </div>
-              <div
-                class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-sky-100 p-4"
-              >
-                <img class="rounded-lg" src="./img/typescript.png" alt="" />
-              </div>
-              <div
-                class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-teal-100 p-4"
-              >
-                <img src="./img/tailwind.svg" alt="" />
-              </div>
-              <div
-                class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-purple-100 p-4"
-              >
-                <img class="rounded-lg" src="./img/vite.svg" alt="" />
-              </div>
-              <!--              <div class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-sky-400 p-4">
-                <img class="rounded-lg" src="./img/webpack.svg" alt="" />
-              </div> -->
-              <div
-                class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-yellow-200 p-4"
-              >
-                <img class="rounded-lg" src="./img/pinia.svg" alt="" />
-              </div>
-              <!--               <div class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-gray-100 p-4">
-                <img class="rounded-lg" src="./img/nextjs.svg" alt="" />
-              </div>
-              <div class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-green-100 p-4">
-                <img class="rounded-lg" src="./img/nuxt.png" alt="" />
-              </div>
-              -->
-              <div
-                class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-red-400 p-4"
-              >
-                <img class="rounded-lg" src="./img/git.svg" alt="" />
-              </div>
-              <div
-                class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-slate-100 p-4"
-              >
-                <img class="rounded-lg" src="./img/python.svg" alt="" />
-              </div>
-            </div>
-          </div>
+          <!-- TODO:封装ICON组件,抽离背景颜色与svg地址 -->
+          <IconBox />
         </div>
       </div>
       <!-- 图片与荣誉 -->
@@ -285,7 +195,7 @@
 <script setup>
 import { ref } from "vue";
 import Countdown from "../components/Widgets/Countdown.vue";
-
+import IconBox from "../components/Widgets/IconBox.vue";
 </script>
 
 <style scoped>
@@ -330,18 +240,6 @@ import Countdown from "../components/Widgets/Countdown.vue";
   }
   50% {
     transform: translateY(-10%);
-  }
-}
-
-.icon-scroll {
-  animation: iconScroll 20s linear infinite;
-}
-@keyframes iconScroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
   }
 }
 </style>
