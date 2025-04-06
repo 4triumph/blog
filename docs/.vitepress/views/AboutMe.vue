@@ -47,7 +47,7 @@
         <div class="flex flex-col justify-between gap-5 md:flex-row md:gap-0">
           <!-- 概述 -->
           <div
-            class="flex w-full flex-col justify-center rounded-xl border bg-gradient-to-r from-violet-400 to-sky-400 px-8 py-4 text-white dark:border-slate-900 dark:from-violet-700 dark:to-sky-600 md:w-[59%]"
+            class="flex w-full flex-col justify-center rounded-xl shadow-md border bg-gradient-to-r from-violet-400 to-sky-400 px-8 py-4 text-white dark:border-slate-900 dark:from-violet-700 dark:to-sky-600 md:w-[59%]"
           >
             <p class="text-lg text-slate-50">你好，很高兴认识你 👋</p>
             <h1
@@ -286,9 +286,10 @@
 import { ref } from "vue";
 import Countdown from "../components/Widgets/Countdown.vue";
 
+const currentYear = new Date().getFullYear();
 const countdownEvent = ref({
   name: "我的生日",
-  date: "2025-07-15", // 这里可以改成你需要倒计时的日期
+  date: `${currentYear}-10-21`, 
 });
 </script>
 
