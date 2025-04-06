@@ -92,7 +92,7 @@
           <IconBox />
         </div>
       </div>
-      <!-- 图片与荣誉 -->
+      <!-- 图片与经历 -->
       <div
         class="mt-4 flex w-full flex-col justify-between gap-5 md:flex-row md:gap-0"
       >
@@ -128,6 +128,14 @@
             <h1 class="mt-1.5 text-4xl font-bold text-white">Kpop</h1>
             <h1 class="mt-1.5 text-4xl font-bold text-white">Jpop</h1>
             <p class="text-right text-sm text-slate-100">《裸の勇者》</p>
+
+            <a
+              href="https://music.163.com/"
+              target="_blank"
+              class="inline-block mt-2 px-6 py-2 text-white rounded-lg hover:opacity-80 transition duration-300 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600"
+            >
+              前往网易云
+            </a>
           </div>
         </div>
         <!-- 游戏 -->

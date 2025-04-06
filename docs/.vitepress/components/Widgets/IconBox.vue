@@ -1,6 +1,6 @@
 <template>
-  <div class="mt-2 overflow-hidden">
-    <div class="icon-scroll flex w-fit gap-4">
+  <div class="mt-2 overflow-x-auto">
+    <div class="icon-scroll flex gap-4">
       <div class="h-20 w-20 flex-shrink-0 rounded-lg bg-green-100 p-4">
         <img src="./img/vue.svg" alt="" />
       </div>
@@ -13,44 +13,48 @@
       <div class="h-20 w-20 flex-shrink-0 rounded-lg bg-cyan-100 p-4">
         <img src="./img/css.svg" alt="" />
       </div>
-      <div
-        class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-yellow-300 p-4"
-      >
+      <div class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-yellow-300 p-4">
         <img class="rounded-lg" src="./img/js.webp" alt="" />
       </div>
-      <div
-        class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-sky-100 p-4"
-      >
+      <div class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-sky-100 p-4">
         <img class="rounded-lg" src="./img/typescript.png" alt="" />
       </div>
-      <div
-        class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-teal-100 p-4"
-      >
+      <div class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-teal-100 p-4">
         <img src="./img/tailwind.svg" alt="" />
       </div>
-      <div
-        class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-purple-100 p-4"
-      >
+      <div class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-purple-100 p-4">
         <img class="rounded-lg" src="./img/vite.svg" alt="" />
       </div>
-      <div
-        class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-yellow-200 p-4"
-      >
+      <div class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-yellow-200 p-4">
         <img class="rounded-lg" src="./img/pinia.svg" alt="" />
       </div>
-      <div
-        class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-red-400 p-4"
-      >
+      <div class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-red-400 p-4">
         <img class="rounded-lg" src="./img/git.svg" alt="" />
       </div>
-      <div
-        class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-slate-100 p-4"
-      >
+      <div class="flex h-20 w-20 flex-shrink-0 justify-center rounded-lg bg-slate-100 p-4">
         <img class="rounded-lg" src="./img/python.svg" alt="" />
       </div>
     </div>
   </div>
 </template>
+
+<style scoped>
+.icon-scroll {
+  display: flex;
+  animation: scroll-left 20s linear infinite;
+  width: max-content; /* Ensure content takes the full width */
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+</style>
+
 
 <script>
 export default {
@@ -82,17 +86,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.icon-scroll {
-  animation: iconScroll 20s linear infinite;
-}
-@keyframes iconScroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
-</style>
