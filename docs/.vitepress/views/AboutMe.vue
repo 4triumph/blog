@@ -89,7 +89,7 @@
           <div
             class="w-full md:w-[39%]"
           >
-            <Countdown :eventData="countdownEvent" />
+            <Countdown />
           </div>
         </div>
       </div>
@@ -286,11 +286,6 @@
 import { ref } from "vue";
 import Countdown from "../components/Widgets/Countdown.vue";
 
-const currentYear = new Date().getFullYear();
-const countdownEvent = ref({
-  name: "我的生日",
-  date: `${currentYear}-10-21`, 
-});
 </script>
 
 <style scoped>

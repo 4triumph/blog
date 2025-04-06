@@ -73,13 +73,15 @@
 import { ref, onMounted, onBeforeUnmount } from "vue";
 import { getTimeRemaining, getDaysUntil } from "../../utils/timeTools";
 
-// 通过 props 接收数据
-const props = defineProps({
-  eventData: {
-    type: Object,
-    required: true,
-  },
+// 当前年份
+const currentYear = new Date().getFullYear();
+
+// 倒计时事件信息
+const eventData = ref({
+  name: "我的生日",
+  date: `${currentYear}-10-21`,
 });
+
 
 // 倒计时数据
 const remainData = ref(null);
@@ -88,9 +90,9 @@ const isHovered = ref(false); // 追踪整个进度条区域的悬浮状态
 
 // 获取倒计时数据
 const getRemainData = () => {
-  remainData.value = getTimeRemaining();
+  remainData.value = getTimeRemaining(eventData.value.date);
   remainInterval.value = setInterval(() => {
-    remainData.value = getTimeRemaining();
+    remainData.value = getTimeRemaining(eventData.value.date);
   }, 1000);
 };
 
