@@ -1,3 +1,26 @@
+# 在vitepress使用live2d-render
+
+## 准备
+先准备一个 live2d 模型，一个 live2d 模型通常是一个包含了如下几类文件的文件夹：
+
+- xxx.moc3
+- xxx.model3.json (配置文件，live2d 最先读取的就是这个文件，可以认为它是 live2d 模型的入口文件，里面列举了所有模型需要使用的静态资源的相对路径)
+- ...
+
+::: warning
+如果文件名有空格，请用 - 代替
+:::
+
+> 模型版权申明：Lenore莱诺尔（B站：一个ayabe）
+
+> 原使用教程为[锦恢](https://document.kirigaya.cn/docs/live2d-render/vuepress-install.html),因为没有vitepress的教程所以我记录一下
+
+将模型文件夹放到项目的 public 文件夹下，那么模型的基本路径为：./cat/sdwhite cat b.model3.json。
+
+## 安装
+在public文件夹下，创建 public/live2d.js，写入如下代码：
+
+```js
 if (window.hasLaunchLive2d === undefined) {
   window.hasLaunchLive2d = false;
 }
@@ -47,3 +70,19 @@ async function launch() {
 
 launch();
 window.onload = launch;
+```
+
+修改.vitepress/config.mjs
+```js
+ head: [
+    ['script', { src: '/live2d.js'}],
+  ],
+```
+
+然后启动项目
+```bash
+pnpm run docs:dev
+```
+
+效果如下:
+![效果图](./image.png)
