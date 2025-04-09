@@ -10,6 +10,7 @@ export default defineConfig({
   description:
     "4triumph's tech blog: An undergraduate's journey through frontend development, sharing insights, tips, and experiences in web technologies.",
   head: [
+    ['script', { src: '/live2d.js'}],
     ["link", { rel: "icon", href: "/logo.png" }],
     [
       'script',
@@ -17,6 +18,7 @@ export default defineConfig({
       `window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };`
     ],
     ['script', { defer: '', src: '/_vercel/insights/script.js' }]
+    
   ],
   themeConfig: {
     logo: "/logo.jpg",
