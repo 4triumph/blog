@@ -139,8 +139,10 @@
           </div>
         </div>
         <!-- 游戏 -->
-        <div
-          class="relative h-52 w-full overflow-hidden rounded-xl md:h-auto md:min-h-[13rem] md:w-[59%]"
+        <a
+          href="https://splatoon3.ink/"
+          target="_blank"
+          class="relative block h-52 w-full overflow-hidden rounded-xl md:h-auto md:min-h-[13rem] md:w-[59%]"
         >
           <div
             class="game-bg absolute h-full w-full bg-cover bg-center bg-no-repeat"
@@ -154,7 +156,7 @@
               无限暖暖 / Splatoon 2|3
             </p>
           </div>
-        </div>
+        </a>
       </div>
 
       <!-- 运动/电影 -->
