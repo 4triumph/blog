@@ -14,8 +14,15 @@ export const projectsInfo: Project[] = [
   {
     banner: '/project-img/student-management.png',
     title: 'Student Management System',
-    description: '一个学生管理系统，实现了学生信息的增改查、分页、搜索等功能',
+    description: '一个学生管理系统，实现了学生信息的视角转换、分页、搜索等功能',
     link: 'https://github.com/4triumph/Student_Management',
     tag: 'React'
+  },
+  {
+    banner: '/project-img/takeout.png',
+    title: 'Takeout Mobile Application',
+    description: '对移动端外卖的模仿，实现了菜品的下单、查看订单等功能',
+    link: 'https://github.com/4triumph/takeout-demo',
+    tag: 'Vue'
   }
 ]
