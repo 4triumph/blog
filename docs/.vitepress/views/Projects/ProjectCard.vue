@@ -44,7 +44,7 @@ const littleBadgeColor = computed(() => {
     case 'C++':
       return 'bg-red-400 text-white'
     case 'React':
-      return 'bg-violet-400 text-white'
+      return 'bg-cyan-300 text-white'
     default:
       return 'border'
   }

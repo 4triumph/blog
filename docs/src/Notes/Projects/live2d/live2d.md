@@ -1,3 +1,9 @@
+---
+updateTime: "2025-04-10 09:38"
+desc: "人人都有小猫娘"
+tags: "JavaScript"
+outline: 2
+---
 # 在vitepress使用live2d-render
 
 ## 准备
