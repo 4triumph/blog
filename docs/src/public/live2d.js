@@ -50,7 +50,7 @@ async function launch() {
 
 const live2dThemes = {
   default: {
-    background: "linear-gradient(to right, #a78bfa, #c4b5fd)",
+    background: "linear-gradient(to right, #c4b5fd, #a78bfa)",
     color: "#fff",
     font: "'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif'",
     triangleColor: "#a78bfa",
