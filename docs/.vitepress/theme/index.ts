@@ -8,6 +8,8 @@ import './print.css'
 import LinkCard from '../components/LinkCard.vue'
 import HText from '../components/HText.vue'
 import Timeline from '../components/Timeline.vue'
+
+
 import mediumZoom from 'medium-zoom'
 import { onMounted, watch, nextTick } from 'vue'
 
