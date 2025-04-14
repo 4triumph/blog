@@ -200,6 +200,8 @@ function createMessageBox(theme = "default") {
   };
 }
 
-createMessageBox("sakura"); // or "default", "ocean"
+
 launch();
 window.onload = launch;
+
+createMessageBox("sakura"); // or "default", "ocean"
