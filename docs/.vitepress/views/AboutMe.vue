@@ -83,9 +83,24 @@
             <p></p>
           </div>
         </div>
+        <!-- 工作经历 -->
+        <div
+          class="bg-stripe w-full rounded-xl border bg-slate-50 p-4 dark:border-slate-900 dark:bg-slate-800 md:w-[50%]"
+        >
+          <p class="text-[12px]">当前人生进度条</p>
+          <h1 class="mt-2 text-4xl font-bold">追风赶月</h1>
+          <div class="mt-4 md:text-base lg:text-xl">
+            <p class="py-1">😭 毕业设计ing</p>
+          </div>
+        </div>
+      </div>
+      <!-- 技术 -->
+      <div
+        class="mt-4 flex w-full flex-col justify-between gap-5 md:flex-row md:gap-0"
+      >
         <!-- 技术栈 -->
         <div
-          class="w-full rounded-xl border bg-slate-50 p-4 dark:border-slate-900 dark:bg-slate-800 md:w-[62%]"
+          class="w-full rounded-xl border bg-slate-50 p-4 dark:border-slate-900 dark:bg-slate-800 md:w-[100%]"
         >
           <p class="text-[12px]">技术栈</p>
           <!-- TODO:封装ICON组件,抽离背景颜色与svg地址 -->
@@ -100,23 +115,14 @@
         <div
           class="honer-bg h-52 w-full rounded-xl bg-cover bg-center bg-no-repeat sm:h-auto md:w-[45%]"
         ></div>
-        <!-- 工作经历 -->
-        <div
-          class="bg-stripe w-full rounded-xl border bg-slate-50 p-4 dark:border-slate-900 dark:bg-slate-800 md:w-[50%]"
-        >
-          <p class="text-[12px]">当前人生进度条</p>
-          <h1 class="mt-2 text-4xl font-bold">追风赶月</h1>
-          <div class="mt-4 md:text-base lg:text-xl">
-            <p class="py-1">😭 毕业设计ing</p>
-          </div>
-        </div>
       </div>
       <!-- 音乐/游戏 -->
       <div
         class="mt-4 flex w-full flex-col justify-between gap-5 md:flex-row md:gap-0"
       >
         <!-- 音乐 -->
-        <div
+        <a href="https://music.163.com/"
+              target="_blank"
           class="relative h-52 min-h-[13rem] w-full overflow-hidden rounded-xl sm:h-auto md:h-auto md:w-[39%]"
         >
           <div
@@ -128,16 +134,8 @@
             <h1 class="mt-1.5 text-4xl font-bold text-white">Kpop</h1>
             <h1 class="mt-1.5 text-4xl font-bold text-white">Jpop</h1>
             <p class="text-right text-sm text-slate-100">《裸の勇者》</p>
-
-            <a
-              href="https://music.163.com/"
-              target="_blank"
-              class="inline-block mt-2 px-6 py-2 text-white rounded-lg hover:opacity-80 transition duration-300 bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600"
-            >
-              前往网易云
-            </a>
           </div>
-        </div>
+        </a>
         <!-- 游戏 -->
         <a
           href="https://splatoon3.ink/"

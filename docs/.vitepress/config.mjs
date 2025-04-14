@@ -37,7 +37,9 @@ export default defineConfig({
       provider: "local",
     },
     // 顶部导航栏左侧的社交平台跳转
-    socialLinks: [{ icon: "github", link: "https://github.com/4triumph" }],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/4triumph" },
+    ],
     // 首页底部版权声明
     footer: {
       copyright: "Copyright © 2025-present 4triumph",

@@ -2,7 +2,7 @@
 layout: page
 sidebar: false
 hero:
-  title: Blogs
+  title: 🧋Blogs
   subTitle: 想喝台茶乌龙弹珠牛奶.
 types:
   - name: 金融学习

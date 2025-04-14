@@ -2,8 +2,6 @@ if (window.hasLaunchLive2d === undefined) {
   window.hasLaunchLive2d = false;
 }
 
-
-
 function load(src) {
   const script = document.createElement("script");
   script.src = src;
@@ -50,26 +48,25 @@ async function launch() {
   }
 }
 
-
 const live2dThemes = {
   default: {
     background: "linear-gradient(to right, #a78bfa, #c4b5fd)",
     color: "#fff",
     font: "'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif'",
-    triangleColor: "#a78bfa"
+    triangleColor: "#a78bfa",
   },
   sakura: {
     background: "linear-gradient(to right, #f9a8d4, #f472b6)",
     color: "#fff",
     font: "'ZCOOL KuaiLe', sans-serif",
-    triangleColor: "#f472b6"
+    triangleColor: "#f472b6",
   },
   ocean: {
     background: "linear-gradient(to right, #60a5fa, #38bdf8)",
     color: "#fff",
     font: "'ZCOOL KuaiLe', sans-serif",
-    triangleColor: "#38bdf8"
-  }
+    triangleColor: "#38bdf8",
+  },
 };
 
 function greetUser() {
@@ -112,16 +109,37 @@ function addClickInteraction() {
   if (!canvas) return;
 
   const messages = [
-    "你点我干嘛呀~",
-    "不可以摸头啦喵~",
-    "今天又是充满元气的一天！",
-    "老攻我在呢~",
-    "你在看什么好内容嘛~",
+    // 💖 元气可爱风
+    { text: "嘿嘿，被你发现啦~", tag: "元气", emoji: "😊" },
+    { text: "摸摸~今天也辛苦啦！", tag: "元气", emoji: "🤗" },
+    { text: "叮咚！开心能量已送达！", tag: "元气", emoji: "📦" },
+    { text: "你是我今天唯一的心动！", tag: "元气", emoji: "💓" },
+    { text: "咕噜咕噜，我是元气小助手~", tag: "元气", emoji: "⚡" },
+    { text: "今天的你闪闪发光哎 ✨", tag: "元气", emoji: "✨" },
+    { text: "给你比心心 ❤️", tag: "元气", emoji: "❤️" },
+    { text: "要一起看猫猫视频吗？", tag: "元气", emoji: "🐱" },
+
+    // 🐸 沙雕搞笑风
+    { text: "别点啦，我都快秃了！", tag: "沙雕", emoji: "🦲" },
+    { text: "喂！你再点我我就报警了哦！", tag: "沙雕", emoji: "🚓" },
+    { text: "已记录你的骚操作！", tag: "沙雕", emoji: "📸" },
+    { text: "我怀疑你喜欢我，并且我有证据。", tag: "沙雕", emoji: "🕵️" },
+    { text: "点够了没？你很闲嘛？", tag: "沙雕", emoji: "😒" },
+    { text: "我可是高贵的电子生命体欸~", tag: "沙雕", emoji: "🤖" },
+    { text: "再点，我就变成卷王咬你！", tag: "沙雕", emoji: "🐍" },
+    { text: "摸我头会变秃头哦~你不怕吗？", tag: "沙雕", emoji: "😱" },
+
+    // 🐾 原始语录（不带分类也没问题）
+    { text: "你点我干嘛呀~", tag: "默认", emoji: "👆" },
+    { text: "不可以摸头啦喵~", tag: "默认", emoji: "🙅‍♀️" },
+    { text: "今天又是充满元气的一天！", tag: "默认", emoji: "🌞" },
+    { text: "老攻我在呢~", tag: "默认", emoji: "🥵" },
+    { text: "你在看什么好内容嘛~", tag: "默认", emoji: "👀" },
   ];
 
   canvas.addEventListener("click", () => {
     const msg = messages[Math.floor(Math.random() * messages.length)];
-    window.__live2dMessage && window.__live2dMessage(msg);
+    window.__live2dMessage && window.__live2dMessage(`${msg.emoji} ${msg.text}`);
   });
 }
 
@@ -147,7 +165,7 @@ function createMessageBox(theme = "default") {
     opacity: "0",
     transition: "opacity 0.3s ease",
     boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)",
-    fontFamily: t.font
+    fontFamily: t.font,
   });
 
   const triangle = document.createElement("div");
@@ -160,7 +178,7 @@ function createMessageBox(theme = "default") {
     borderLeft: "8px solid transparent",
     borderRight: "8px solid transparent",
     borderTop: `10px solid ${t.triangleColor}`,
-    filter: "drop-shadow(0 2px 2px rgba(0,0,0,0.1))"
+    filter: "drop-shadow(0 2px 2px rgba(0,0,0,0.1))",
   });
 
   box.appendChild(triangle);
@@ -181,7 +199,6 @@ function createMessageBox(theme = "default") {
     }, duration);
   };
 }
-
 
 createMessageBox("sakura"); // or "default", "ocean"
 launch();
