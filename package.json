@@ -25,6 +25,7 @@
     "aos": "^2.3.4",
     "dayjs": "^1.11.9",
     "gray-matter": "^4.0.3",
+    "myBlog-2": "link:",
     "pinia": "^3.0.1",
     "vue3-lottie": "^3.3.1"
   }
