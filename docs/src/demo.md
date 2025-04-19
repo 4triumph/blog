@@ -33,4 +33,9 @@ features:
     details: Discover a network of my friends' blogs and personal websites.
     link: /Friends
     linkText: "友情链接"
+  - icon: 🛫
+    title: Life Journey
+    details: Explore the footprints of unforgettable travels, capturing stories across time and continents.
+    link: /Travel
+    linkText: "旅游足迹"
 ---

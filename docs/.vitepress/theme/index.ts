@@ -1,5 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import { Theme, useRoute } from 'vitepress'
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
 import './tailwind.css'
 import './var.css'
 import './article.css'
@@ -19,6 +21,7 @@ export default {
     ctx.app.component('LinkCard', LinkCard)
     ctx.app.component('HText', HText)
     ctx.app.component('Timeline', Timeline)
+    ctx.app.use(ElementPlus)
   },
 
   setup() {
