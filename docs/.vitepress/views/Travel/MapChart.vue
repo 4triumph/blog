@@ -3,14 +3,20 @@
     class="flex-1 bg-white dark:bg-gray-50 rounded-xl shadow-xl p-4 w-full h-full"
   >
     <!-- 返回按钮（仅中国地图下钻时显示） -->
-    <el-button
+    <button
       type="primary"
       size="small"
       @click="goBack"
       v-if="historyStack.length && isChina"
+      class="text-sm rounded-md w-[10%] border border-sky-500
+         text-sky-600 bg-white
+         hover:text-white
+         hover:bg-gradient-to-r hover:from-violet-400 hover:to-sky-400
+         dark:hover:from-sky-600 dark:hover:to-violet-700
+         transition duration-300 shadow-sm shadow-blue-500/50 hover:shadow-md py-2"
     >
       返回上级
-    </el-button>
+    </button>
     <!-- 地图显示区域 -->
     <div ref="mapChartRef" class="w-full h-full min-h-[900px]" />
   </div>
