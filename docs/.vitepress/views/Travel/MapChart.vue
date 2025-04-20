@@ -8,12 +8,7 @@
       size="small"
       @click="goBack"
       v-if="historyStack.length && isChina"
-      class="text-sm rounded-md w-[10%] border border-sky-500
-         text-sky-600 bg-white
-         hover:text-white
-         hover:bg-gradient-to-r hover:from-violet-400 hover:to-sky-400
-         dark:hover:from-sky-600 dark:hover:to-violet-700
-         transition duration-300 shadow-sm shadow-blue-500/50 hover:shadow-md py-2"
+      class="text-sm rounded-md w-[10%] border border-sky-500 text-sky-600 bg-white hover:text-white hover:bg-gradient-to-r hover:from-violet-400 hover:to-sky-400 dark:hover:from-sky-600 dark:hover:to-violet-700 transition duration-300 shadow-sm shadow-blue-500/50 hover:shadow-md py-2"
     >
       返回上级
     </button>
@@ -50,6 +45,70 @@ const currentAdcode = ref(isChina.value ? 100000 : null);
 const regionData = ref([]);
 const historyStack = ref([]);
 
+// 定义去过的地方
+const visitedRegions = {
+  china: [
+    "陕西省",
+    "咸阳市",
+    "福建省",
+    "厦门市",
+    "宁德市",
+    "福鼎市",
+    "浙江省",
+    "杭州市",
+    "金华市",
+    "义乌市",
+    "江苏省",
+    "南京市",
+    "苏州市",
+    "上海市",
+    "安徽省",
+    "合肥市",
+    "湖北省",
+    "武汉市",
+    "江西省",
+    "南昌市",
+    "景德镇市",
+    "广东省",
+    "深圳市",
+    "广州市",
+    "惠州市",
+    "东莞市",
+    "汕头市",
+    "清远市",
+    "韶关市",
+    "珠海市",
+    "佛山市",
+    "香港特别行政区",
+    "黑龙江省",
+    "哈尔滨市",
+    "辽宁省",
+    "吉林省",
+    "青海省",
+    "甘肃省",
+    "酒泉市",
+    "张掖市",
+    "武威市",
+    "兰州市",
+    "四川省",
+    "八中市",
+    "重庆市",
+    "云南省",
+    "昆明市",
+    "大理白族自治州",
+    "丽江市",
+    "广西壮族自治区",
+    "桂林市",
+    "阳朔县",
+  ], 
+  japan: ["Tokyo", "Osaka"],
+  world: ["中国", "日本"]
+};
+
+// 统一的颜色
+const visitedColor = "#6366F1";
+
+// 加载地图数据
 // 加载地图数据
 const loadMap = async (adcodeOrName, mapLabel) => {
   try {
@@ -62,15 +121,13 @@ const loadMap = async (adcodeOrName, mapLabel) => {
       }
       mapJson = mapData.json;
     } else {
-      // 如果是非中国地图，继续使用动态加载方式
       mapJson = (await import(`../../assets/map/${adcodeOrName}.json`)).default;
     }
 
     echarts.registerMap(mapLabel, mapJson);
 
-    if (isChina.value) {
-      regionData.value = mapJson.features.map((item) => item.properties);
-    }
+    // 无论是否是中国地图，都获取 features -> properties
+    regionData.value = mapJson.features.map((item) => item.properties);
 
     renderMap(mapLabel);
   } catch (error) {
@@ -78,6 +135,7 @@ const loadMap = async (adcodeOrName, mapLabel) => {
     ElMessage.error("地图加载失败！");
   }
 };
+
 
 // 渲染地图
 const renderMap = (mapLabel) => {
@@ -95,6 +153,38 @@ const renderMap = (mapLabel) => {
       zoom = 1.2; // 你可以根据需要调整缩放等级
     }
   }
+  // 动态设置去过地方的颜色
+  const mapData = regionData.value.map((region) => {
+    const regionName = region.name;
+    let regionColor = "#cde8ff"; // 默认颜色
+
+    // 如果该区域在visitedRegions中，设置为已去过的颜色
+    if (
+      props.mapName === "china" &&
+      visitedRegions.china.includes(regionName)
+    ) {
+      regionColor = visitedColor;
+    } else if (
+      props.mapName === "japan" &&
+      visitedRegions.japan.includes(regionName)
+    ) {
+      regionColor = visitedColor;
+    } else if (
+      props.mapName === "world" &&
+      visitedRegions.world.includes(regionName)
+    ) {
+      regionColor = visitedColor;
+    }
+
+    return {
+      name: regionName,
+      value: region.value || 0,
+      itemStyle: {
+        areaColor: regionColor,
+        borderColor: "#999",
+      },
+    };
+  });
 
   const option = {
     tooltip: {
@@ -118,6 +208,7 @@ const renderMap = (mapLabel) => {
             areaColor: "#ffd591",
           },
         },
+        data: mapData, // 填充自定义颜色数据
       },
     ],
   };
