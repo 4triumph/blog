@@ -24,7 +24,7 @@
 
         <!-- 右侧 -->
 
-        <MapChart :country="selectedCountry" />
+        <MapChart :mapName="selectedCountry" />
       </div>
     </div>
   </VPTeamPage>
