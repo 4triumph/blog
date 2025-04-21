@@ -108,25 +108,26 @@ const visitedRegions = {
 // 统一的颜色
 const visitedColor = "#6366F1";
 
-// 加载地图数据
-// 加载地图数据
 const loadMap = async (adcodeOrName, mapLabel) => {
   try {
     let mapJson;
 
+    // 如果是中国地图，拼接 _full.json 文件名
+    let fileName = '';
     if (isChina.value) {
-      const mapData = chinaMaps[adcodeOrName];
-      if (!mapData) {
-        throw new Error("未找到对应的地图数据");
-      }
-      mapJson = mapData.json;
+      fileName = `/map/china/${adcodeOrName}_full.json`;  // 拼接 _full.json
     } else {
-      mapJson = await (await fetch(`/map/${adcodeOrName}.json`)).json();
+      fileName = `/map/${adcodeOrName}.json`;  // 其他国家的地图文件
     }
 
-    echarts.registerMap(mapLabel, mapJson);
+    // 使用 fetch 加载地图文件
+    const response = await fetch(fileName);
+    if (!response.ok) {
+      throw new Error("地图数据加载失败");
+    }
+    mapJson = await response.json();
 
-    // 无论是否是中国地图，都获取 features -> properties
+    echarts.registerMap(mapLabel, mapJson);
     regionData.value = mapJson.features.map((item) => item.properties);
 
     renderMap(mapLabel);
@@ -135,6 +136,7 @@ const loadMap = async (adcodeOrName, mapLabel) => {
     ElMessage.error("地图加载失败！");
   }
 };
+
 
 
 // 渲染地图
