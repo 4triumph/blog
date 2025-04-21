@@ -21,7 +21,7 @@
 import * as echarts from "echarts";
 import { onMounted, ref, watch, onBeforeUnmount } from "vue";
 import { ElMessage } from "element-plus";
-import chinaMaps from "../../assets/map/china/index"; // 确保路径正确
+import chinaMaps from "../../../src/public/map/china/index"; // 确保路径正确
 import { nextTick } from "vue";
 
 // Props: 传入地图名称（支持中国地图下钻及其他国家地图）
@@ -121,7 +121,7 @@ const loadMap = async (adcodeOrName, mapLabel) => {
       }
       mapJson = mapData.json;
     } else {
-      mapJson = (await import(`../../assets/map/${adcodeOrName}.json`)).default;
+      mapJson = await (await fetch(`/map/${adcodeOrName}.json`)).json();
     }
 
     echarts.registerMap(mapLabel, mapJson);
@@ -280,4 +280,3 @@ watch(
   }
 );
 </script>
-
