@@ -56,11 +56,15 @@ export default withMermaid(
       build: {
         rollupOptions: {
           input: {
-            // 这里可以排除某些特定的文件
-            // 比如排除掉 '1100笔记' 目录下的文件
-            exclude: ['docs/src/Notes/Finance/1100/20250828.md']
-          }
-        }
+            // 排除某些不需要的文件
+            // 在这里修改成正确的路径格式，确保排除文件不会影响构建
+          },
+          // 你可以尝试通过 externals 来排除特定的内容
+          external: [
+            // 将特定的 Markdown 文件排除
+            'docs/src/Notes/Finance/1100/20250828.md',
+          ],
+        },
       },
       plugins: [],
       optimizeDeps: {
