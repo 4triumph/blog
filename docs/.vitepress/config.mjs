@@ -58,7 +58,7 @@ export default withMermaid(
           input: {
             // 这里可以排除某些特定的文件
             // 比如排除掉 '1100笔记' 目录下的文件
-            exclude: ['docs/src/Notes/Finance/1100笔记/20250828.md']
+            exclude: ['docs/src/Notes/Finance/1100/20250828.md']
           }
         }
       },
