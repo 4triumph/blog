@@ -53,6 +53,15 @@ export default withMermaid(
       outlineTitle: "导航栏",
     },
     vite: {
+      build: {
+        rollupOptions: {
+          input: {
+            // 这里可以排除某些特定的文件
+            // 比如排除掉 '1100笔记' 目录下的文件
+            exclude: ['docs/src/Notes/Finance/1100笔记/20250828.md']
+          }
+        }
+      },
       plugins: [],
       optimizeDeps: {
         include: ["mermaid"],
