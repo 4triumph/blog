@@ -33,7 +33,8 @@ function generate(notesRootPath: string, pagePath: string, prefix = '', depth = 
   let sidebarSection: SideBar = {
     text: transformName(pagePath.replace(/\//g, '')),
     items: [],
-    collapsed: depth >= 2,
+    // collapsed: depth >= 2,
+    collapsed: true,
     link: ''
   }
 
