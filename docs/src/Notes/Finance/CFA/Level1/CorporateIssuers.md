@@ -1,185 +1,100 @@
-## Corporate Issuers Summary
+# Corporate Issuers
+## Organizationl Forms，Corporate Issuer，Features，and Ownership
+### 题目
+Which of the following organizational forms provides for the least owner liability of business debts?
 
-### 1. Business & Business Model
+下列哪一种企业组织形式，对企业债务承担的所有者责任最小？
 
-#### Business
-- 企业存在目的：为股东创造经济利益（Economic Benefits）
+A. General partnership（普通合伙企业）
+✅ B. Private limited company（私人有限公司）
+C. Sole proprietorship（独资企业）
+正确答案：B. Private limited company
 
-#### Business Model
-回答四个问题：
+### note
+| 企业形式 | 所有者责任 | 是否需要用个人财产偿还债务 |
+|----------|-----------|--------------------------|
+| Sole Proprietorship（独资企业） | 无限责任（Unlimited Liability） | ✅ 是 |
+| General Partnership（普通合伙企业） | 无限责任（Unlimited Liability） | ✅ 是（合伙人承担连带责任） |
+| Private Limited Company（私人有限公司） | 有限责任（Limited Liability） | ❌ 否（一般仅以出资额为限） |
 
-- Customer（客户）
-- Product（产品）
-- Channel（渠道）
-- Pricing（定价）
+```mermaid
+flowchart TD
+    A[Organizational Forms of Businesses]
 
-> **口诀：Customer → Product → Channel → Pricing**
+    A --> B[Businesses]
+    A --> C[Non-Profits]
+    A --> D[Governments]
 
-| Model | 特点 | Example |
-|------|------|------|
-| Direct Sales | 无中间商 | Tesla |
-| Omnichannel | 全渠道 | Nike |
-| Licensing | IP授权 | Disney |
-| Franchising | 加盟 | McDonald's |
-
----
-
-### 2. Pricing Strategy
-
-| Strategy | 中文 | 特点 | Example |
-|----------|------|------|---------|
-| Value-based | 价值定价 | 按客户价值定价 | Apple |
-| Penetration | 渗透定价 | 低价抢市场 | 新品牌 |
-| Dynamic | 动态定价 | 不同时间不同价格 | Uber |
-| Tiered | 阶梯定价 | 不同套餐 | Netflix |
-| Price Discrimination | 差别定价 | 不同客户不同价格 | 学生票 |
-| Bundling | 捆绑销售 | 产品组合销售 | Office |
-| Add-on | 附加收费 | 基础便宜，增值收费 | 航空托运 |
-| Razor-Razorblade | 刀架刀片 | 主产品便宜，耗材赚钱 | Gillette |
-
-> **Pricing Power：企业提价而销量几乎不下降。**
-
----
-
-### 3. Capital Investment
-
-#### Capital Investment
-- 使用寿命 > 1 年
-- 例如：工厂、设备、研发
-
-#### Capital Allocation
-包括：
-
-- Capital Investment
-- Dividend
-- Buyback
-- Debt Repayment
-- Acquisition
-
----
-
-### 4. Real Options
-
-| Option | 含义 |
-|---------|------|
-| Growth Option | 表现好继续投资 |
-| Abandonment Option | 表现差终止项目 |
-| Production Flexibility | 调整产量 |
-| Price-setting Option | 调整售价 |
-
-> **口诀：Grow → Quit → Produce → Price**
-
----
-
-### 5. Capital Structure
-
-- Capital Structure = Debt + Equity
-- Optimal Capital Structure：企业价值最大、WACC最低
-- Target Capital Structure：管理层目标资本结构
-
-#### WACC
-
-```text
-WACC = wd × Rd × (1−T) + we × Re
+    B --> E[Sole Trader or Sole Proprietorship]
+    B --> F[Partnership]
+    B --> G[Limited Company]
 ```
 
-#### Debt Tax Shield
+**Comparison of Business Organizational Forms**
 
-```text
-Tax Shield = Debt × Tax Rate
+| Feature | Sole Proprietorship | General Partnership | Limited Partnership | Corporation |
+|---------|---------------------|---------------------|---------------------|-------------|
+| **Legal Identity** | ❌ No separate legal identity | ❌ No separate legal identity | ❌ No separate legal identity | ✅ Separate legal entity |
+| **Owner–Operator Relationship** | Owner operated | Partners operated | **GP** manages the business | Board of Directors & Management |
+| **Owner Liability** | **Unlimited liability** | **Shared unlimited liability** | **GP:** Unlimited<br>**LP:** Limited | **Limited liability** |
+| **Taxation** | **Pass-through taxation** | **Pass-through taxation** | **Pass-through taxation** | **Corporate tax + Dividend tax (Double Taxation)** |
+| **Access to Financing** | Limited | Limited | Limited | Strongest access to capital |
+
+| 属性（Attribute） | 中文 | 含义 |
+|------------------|------|------|
+| **Legal Identity** | 法律身份 | 企业是否具有独立于所有者的法律主体资格（Separate Legal Entity）。 |
+| **Owner–Manager Relationship** | 所有者—管理者关系 | 企业所有者与经营管理者之间的关系，是否由所有者亲自管理或委托他人管理。 |
+| **Owner Liability** | 所有者责任 | 所有者是否需要以个人财产承担企业债务（有限责任或无限责任）。 |
+| **Taxation** | 税务 | 企业利润或亏损如何纳税，是否存在双重征税（Double Taxation）。 |
+| **Access to Financing** | 融资能力 | 企业筹集资金、支持扩张及分散风险的能力。 |
+
+```mermaid
+mindmap
+  root((General Partnership))
+    Ownership
+      Two or more partners
+      Shared ownership
+    Management
+      Shared control of business operations
+    Liability
+      Unlimited liability
+      Joint liability
+    Taxation
+      Pass-through taxation
+      No double taxation
+    Advantages
+      Easy to establish
+      More capital than sole proprietorship
+    Disadvantages
+      Unlimited liability
+      Potential partner conflicts
+      Limited life
 ```
 
----
-
-### 6. Liquidity
-
-| Ratio | Formula |
-|--------|---------|
-| Current Ratio | CA / CL |
-| Quick Ratio | (Cash + MS + AR) / CL |
-| Cash Ratio | (Cash + MS) / CL |
-
-> Cash Ratio > Quick Ratio > Current Ratio（严格程度）
-
----
-
-### 7. Cash Conversion Cycle
-
-```text
-CCC = DOH + DSO − DPO
+```mermaid
+mindmap
+  root((Limited Partnership))
+    General Partner (GP)
+      Manages the business
+      Unlimited liability
+      Responsible for business operations
+    Limited Partner (LP)
+      Invests capital
+      Limited liability
+      Little or no management responsibility
+    Taxation
+      Pass-through taxation
+      No double taxation
+    Advantages
+      Easier to raise capital
+      Limited partners have protected liability
+    Disadvantages
+      General partner has unlimited liability
+      Limited partners have limited control
 ```
 
-- DOH：Inventory Days
-- DSO：Receivable Days
-- DPO：Payable Days
 
-> **口诀：存货 + 收款 − 付款**
 
----
-
-### 8. Financing Theory
-
-| Theory | 核心思想 |
-|---------|----------|
-| Pecking Order | Internal → Debt → Equity |
-| Static Trade-off | Tax Shield vs Financial Distress |
-| Free Cash Flow | Debt约束管理层 |
-
----
-
-### 9. Corporate Governance
-
-```
-Principal
-     │
-     ▼
-Agent
-     │
-     ▼
-Agency Cost
-```
-
-董事会：
-
-- Independent Director
-- Inside Director
-
-股东：
-
-- Controlling Shareholder
-- Minority Shareholder
-
----
-
-### 10. IPO & Equity
-
-| 名称 | 含义 |
-|------|------|
-| IPO | 首次公开发行 |
-| Direct Listing | 直接上市 |
-| Private Placement | 私募 |
-| SPAC | Blank Check Company |
-| Convertible Debt | 债券+股票期权 |
-| Dual-class Shares | 双重股权 |
-
----
-
-### 11. 必背公式
-
-```text
-NPV = PV(Inflows) − PV(Outflows)
-
-IRR → NPV = 0
-
-FCF = CFO − CAPEX
-
-CCC = DOH + DSO − DPO
-
-WACC = wdRd(1−T) + weRe
-
-Current Ratio = CA / CL
-
-Quick Ratio = (Cash + MS + AR) / CL
-
-Cash Ratio = (Cash + MS) / CL
-```
+### 生词
+financial acumen 财务敏锐度
+joint ventures 合资企业
