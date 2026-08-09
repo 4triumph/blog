@@ -329,6 +329,259 @@ C. return potential
 | Investment risk | Higher | Lower |
 | Desired outcome | Maximize firm value | Timely repayment |
 
+---
+10**ESG considerations are increasingly relevant for which of the following reasons?**  *(More than one correct option may be possible. Choose one answer that applies.)*
+
+A. Many in the new generation of investors are demanding that investment strategies incorporate ESG factors.
+
+B. ESG issues are having more material impacts on companies’ valuations.
+
+C. Environmental and social issues are being treated as negative externalities.
+
+**正确答案：A、B**
+ESG considerations are of increasing importance for three reasons:
+- The material financial impact of ESG factors on corporate issuers has risen. Both shareholders and debtholders have suffered substantial losses due to environmental disasters, social controversies, and governance deficiencies.
+- Interest in the environmental and social impacts of investments has grown, particularly among younger clients, who increasingly demand that newly acquired or inherited wealth, as well as pension contributions, be managed with ESG considerations in mind.
+-  As government stakeholders continue to prioritize climate change and social policies, revised regulations are forcing corporate issuers to adapt their business practices to meet more stringent ESG criteria.
+
+---
+10.**Which of the following board structures is most likely to be preferred by a minority shareholder?**
+
+A. Majority independent and staggered elections.
+
+B. Majority independent and full board election.
+
+C. Majority inside and staggered elections.
+
+**正确答案：B**
+
+**Full board election ✅**
+
+- 全体董事同时接受股东选举
+- 股东更容易更换表现不佳的董事会
+- 董事会问责性（Accountability）更强
+
+**Staggered elections ❌**
+
+- 每次只改选部分董事
+- 管理层更稳定
+- 股东较难更换董事会
+- 不利于少数股东
+
+---
+11.**Complete each statement by selecting one of the following:**
+
+- agent
+- principal
+- contractual
+- principal-agent
+- employer-employee
+
+1. In a corporation, the board of directors is elected to act as a(n) ________.
+2. In a corporation, shareholders are a(n) ________.
+3. Customers have a(n) ________ relationship with a corporate issuer.
+
+**正确答案：**
+1. **agent**
+2. **principal**
+3. **contractual**
+
+**Customers = Contractual relationship**
+- 客户与公司之间是**合同关系（Contractual relationship）**，通过购买产品或服务形成权利和义务。
+
+---
+12. An <u>extraordinary general meeting (EGM)</u> may be called when requested by a specific minimum number of calling shareholders, as detailed in the company’s bylaws or charter.
+特别股东大会
+
+---
+13.A <u>dispersed</u> corporate ownership structure involves many shareholders, none of whom can exercise control over the corporation.
+
+---
+14.**Which of the following best describes shareholder activists?** Shareholder activists:
+A. Help stabilize a company’s strategic direction.
+B. Have little effect on the company’s long-term investors.
+C. Are unlikely to alter the composition of a company’s shareholder base.
+
+**正确答案：A**
+**Shareholder activists 的影响：**
+
+| 行为 | 影响 |
+|---|---|
+| Restructure company | 重组公司 |
+| Replace management | 更换管理层 |
+| Sell non-core assets | 出售非核心资产 |
+| Focus strategy | 聚焦核心业务 |
+| Change shareholder base | 改变股东结构 |
+
+---
+
+15.投资分析师最担心哪种高管薪酬方案？
+An investment analyst would likely be most concerned about an executive compensation plan that:
+A. varies each year.
+B. is consistent with the compensation plans of a company’s competitors.
+C. is cash-based only, without an equity component.
+缺少股权激励会导致：
+Management interests ≠ Shareholders’ interests
+可能产生：
+Agency problem（代理问题）
+Short-term focus（短期主义）
+正确答案：C
+
+---
+
+16.题目：
+Which of the following events or activities is most likely to be a drag on liquidity?
+以下哪项最可能导致流动性受到拖累？
+A. Inventory that becomes obsolete
+B. Making payments to suppliers earlier
+C. Offering a discount to customers who pay within 10 days
+✅正确答案：A. Inventory that becomes obsolete
+
+| 概念分类 | 英文术语 | 核心定义与机制 | 典型考试场景 / 例子 | 选项对应情况 |
+| :--- | :--- | :--- | :--- | :--- |
+| **拖累流动性** | **Drag on Liquidity** | **现金流入延迟或减少**。资金被滞留在资产中，无法按时变现。 | • 存货积压/过时 (Obsolete inventory)<br>• 应收账款回收缓慢 (Slow-paying receivables)<br>• 坏账增加 | **正确选项 (A)**<br>库存过时导致变现受阻 |
+| **拉动流动性** | **Pull on Liquidity** | **现金流出加速或提前**。资金被快速支付或抽走，消耗现金。 | • 提前支付供应商货款 (Early supplier payments)<br>• 提前还债<br>• 银行削减信用额度 | **干扰项 (B)**<br>提前付款属于 Pull |
+| **加速现金流入** | **Speed up Cash Inflow** | **优化/改善流动性**的操作。通过优惠吸引客户尽早支付现金。 | • 提供现金折扣 (Offering discounts for early payment, e.g., 10天内付款打折) | **干扰项 (C)**<br>现金折扣促进资金回收 |
+
+**Drag = 钱进不来**
+→ 坏账、过时库存
+**Pull = 钱出去更快/借不到钱**
+→ 提前付款、债务偿还、信用中断
+
+---
+17.**Net Working Capital Calculation（信用分析常用）：**
+题目
+
+Consider the following balance sheet for an issuer:
+
+| 项目 | 金额 |
+|---|---:|
+| Cash | 100 |
+| Marketable securities | 20 |
+| Accounts receivable | 600 |
+| Inventory | 800 |
+| Prepaid expenses | 30 |
+| Property, plant, and equipment | 10,000 |
+| Intangibles | 500 |
+| **Total assets** | **12,050** |
+| Accounts payable | 980 |
+| Accrued expenses | 70 |
+| Short-term debt | 1,000 |
+| Long-term debt | 2,000 |
+| Shareholders’ equity | 8,000 |
+| **Total liabilities and equity** | **12,050** |
+
+The issuer’s **net working capital** is closest to:
+
+A. -500  
+B. 380  
+C. 1,550  
+计算过程
+
+| 分类 | 项目 | 金额 |
+|---|---|---:|
+| **Current Assets（排除现金和有价证券）** | Accounts receivable | 600 |
+|  | Inventory | 800 |
+|  | Prepaid expenses | 30 |
+|  | **Total operating current assets** | **1,430** |
+| **Current Liabilities（排除短期债务）** | Accounts payable | 980 |
+|  | Accrued expenses | 70 |
+|  | **Total operating current liabilities** | **1,050** |
+| **Net Working Capital** | 1,430 − 1,050 | **380** |
+
+正确答案✅ **B. 380**
+
+*NWC 只看“经营产生的钱”：*
+买货、卖货产生的应收、库存、应付 → ✅算
+借钱、还债、股东投资 → ❌不算
+| 项目 | 中文 | 类型 | 含义 | 是否计入 Net Working Capital |
+|---|---|---|---|---|
+| Short-term debt | 短期债务 | Financing liability（融资负债） | 一年内需要偿还的借款，如短期银行贷款、商业票据 | ❌ 不计入经营性 NWC |
+| Long-term debt | 长期债务 | Long-term financing（长期融资） | 一年以上到期的借款，如长期银行贷款、债券 | ❌ 不计入 NWC |
+| Shareholders’ equity | 股东权益 | Equity（股东融资） | 股东投入资本 + 留存收益，代表公司净资产 | ❌ 不计入 NWC |
+| Non-current assets | 非流动资产 / 长期资产 | Long-term assets（长期资产） | 用于长期经营的资产，不属于短期经营资金循环 | ❌ 不计入 NWC |
+| Property, plant, and equipment (PP&E) | 不动产、厂房和设备（固定资产） | Tangible long-term assets（有形长期资产） | 公司用于生产经营的厂房、机器、设备等 | ❌ 不计入 NWC |
+| Intangibles | 无形资产 | Intangible long-term assets（无形长期资产） | 没有实体形态但具有价值的资产，如专利、品牌、商誉 | ❌ 不计入 NWC |
+
+---
+18.**Keown Corporation is experiencing liquidity challenges. As an analyst, you note three recent trends related to Keown’s working capital:**
+1. An increase in average days sales outstanding is a drag on liquidity.
+2. An increase in days of inventory on hand is a drag on liquidity.
+3. An increase in credit limits by lenders is a pull on liquidity.
+
+**Which trend does not contribute to the firm’s liquidity challenges?**
+
+- [ ] **A.** The change in average days sales outstanding
+- [ ] **B.** The change in days of inventory on hand
+- [x] **C.** The change in credit limits
+
+| 概念分类 | 核心定义 | 机制本质 | 典型案例 | 对流动性的影响 |
+| :--- | :--- | :--- | :--- | :--- |
+| **流动性拖累**<br>*(Drags on Liquidity)* | 现金**流入变慢**或被滞留 | 资金变现周期拉长，回流受阻 | • **DSO 增加**（应收账款回款变慢）<br>• **DOH 增加**（存货积压/卖不出去）<br>• 坏账增加 | **加剧资金链紧张**<br>*(Drag)* |
+| **流动性拉动**<br>*(Pulls on Liquidity)* | 现金**流出加速**或融资渠道受限 | 现金被迅速抽干或无法融资 | • 提前支付供应商货款<br>• 商业信用期限缩短<br>• **银行/债权人降低信用额度** | **加剧资金链紧张**<br>*(Pull)* |
+---
+19.短期筹资方式与营运资本成本比较
+ 题目关键信息
+* **筹资需求**：短期资金 **CAD 200,000**（20 万加元），用于支付员工薪酬（Payroll）。
+* **公司现有资产/负债状态**：
+  * **应付账款（Accounts Payable）**：CAD 2,000,000，付款条款为 $2/10, \text{net } 30$（10 天内付款享 2% 现金折扣，最晚 30 天付清）。
+  * **应收账款（Accounts Receivable）**：CAD 2,000,000。
+  * **可变现证券（Marketable Securities）**：CAD 5,000,000。
+* **核心问题**：对于 Keown 公司而言，采用哪种渠道筹集这 20 万加元最合理？
+
+| 筹资来源 | 方式与动作 | 成本计算公式 | 实际成本 (CAD) | 评价与结论 |
+| :--- | :--- | :--- | :--- | :--- |
+| **A / B. 长期债/股票** | 发行长期证券 | 极高承销/发行费用 | 很高且耗时长 | ❌ 期限错配，不适用于短期薪酬 |
+| **C. 应付账款** | 延迟付款并放弃 2% 折扣 | $200,000 \times 2\%$ | $4,000$ | ❌ 成本偏高（放弃折扣成本极高） |
+| **D. 应收账款** | 按 10% 折扣保理/卖出 | $\frac{200,000}{1 - 0.10} \times 10\%$ | $22,222$ | ❌ 成本极高 |
+| **E. 可变现证券** | **按 0.5% 手续费变现** | $200,000 \times 0.5\%$ | $\mathbf{1,000}$ | ✅ **最优解（成本最低、变现最快）** |
+
+**各选项详细拆解与踩坑深度剖析**
+选项 A & B：发行长期债券（Long-term Debt）或 发行普通股（Common Stock）
+* **错误原因**：犯了严重的声音与**期限错配（Maturity Mismatch）**错误。
+* **深度讲解**：
+  * 发行股票或长期债券属于**资本结构（Capital Structure）级别的长期融资**，适用于建造厂房、收购企业等长期资本支出（CapEx）。
+  * 薪酬（Payroll）是典型的**日常短期营运费用**。长期融资不仅发行流程繁琐、法律合规成本和承销费用极高，而且耗时动辄数月，根本不可能用来解决眼下的薪酬发放。
+
+选项 C：延迟支付应付账款，放弃 2% 的现金折扣（Delay A/P and forgo 2% discount）
+* **错误原因**：放弃现金折扣是一种非常昂贵的隐性融资方式。
+* **深度讲解与计算**：
+  * 条款 $2/10, \text{net } 30$ 意味着：如果在第 10 天付款，可以少付 2%；如果拖到第 30 天付，就要付全额。
+  * 若为了省下 20 万现金发工资而延迟付款，公司损失的是这 20 万原本能拿到的 **2% 折扣**。
+  * **直接清算成本**：
+    $$\text{实际成本} = 200,000 \times 2\% = \mathbf{\text{CAD } 4,000}$$
+  * *(拓展思维)*：如果折算成**年化隐性利率（Cost of Trade Credit）**：
+    $$\text{年化利率} = \frac{\text{折扣\%}}{1 - \text{折扣\%}} \times \frac{365}{\text{延期天数}} = \frac{2\%}{98\%} \times \frac{365}{30 - 10} \approx \mathbf{36.73\%}$$
+    年化成本高达 36.73%，属于极其不划算的融资渠道。
+
+选项 D：按 10% 的折价出售应收账款（Sell A/R at a 10% discount）
+* **错误原因**：未能正确理解“目标到手净现金”与“资产面值”的区别，导致成本极高。
+* **核心易错点攻克（重点！）**：
+  > ❓ **为什么不是 $200,000 \times 10\% = 20,000$？**
+  * **答**：因为公司需要落袋为安的**净现金（Net Proceeds）必须是 20 万**。如果你只拿面值 20 万的应收账款去卖，打 9 折（扣除 10%）后，到手的现金只有：
+    $$200,000 \times (1 - 10\%) = \text{CAD } 180,000$$
+    **这根本不够支付 20 万的薪酬！**
+  
+* **正确计算逻辑（倒推法）**：
+  1. 设需要卖出的应收账款面值为 $X$：
+     $$X \times (1 - 10\%) = 200,000 \implies X \times 0.9 = 200,000$$
+  2. 解得需卖出的面值：
+     $$X = \frac{200,000}{0.9} = \mathbf{\text{CAD } 222,222.22}$$
+  3. 计算实际付出的折价成本（面值 - 到手现金）：
+     $$\text{实际成本} = 222,222.22 \times 10\% = \mathbf{\text{CAD } 22,222.22}$$
+  * 发生高达 2.22 万的损失，成本过于昂贵！
+
+选项 E：卖出可变现证券，支付 0.5% Brokerage Cost
+* **正确原因**：交易成本最低、变现速度最快，且完全符合资产管理属性。
+* **深度讲解与计算**：
+  * 可变现证券（如国债、商业票据）本质上就是企业的 **“现金等价物 / 现金缓冲垫（Cash Buffer）”**，持有它们的目的就是为了随时应对突发的短期流动性需求。
+  * **直接清算成本**：
+    $$\text{实际成本} = 200,000 \times 0.5\% = \mathbf{\text{CAD } 1,000}$$
+  * 仅需支付少量手续费即可即时获得 20 万现金，是所有选项中 **摩擦成本最小（1,000 < 4,000 < 22,222）** 且最合理的方案。
+---
+
+
+---
 
 ### note
 | 企业形式 | 所有者责任 | 是否需要用个人财产偿还债务 |
@@ -527,6 +780,115 @@ flowchart TB
 | 保留上市资格 | 专门为了收购目标公司而设立并上市 |
 | 可用于借壳上市（Reverse Takeover） | 可用于 SPAC 合并上市（SPAC Merger） |
 
+**Principal-Agent and Other Relationships**
+![Board Structure](Principal-AgentandOtherRelationships.png)
+
+**Matters presented for a shareholder vote at EGMs are idiosyncratic but commonly include the following:**
+
+- Special elections of board members, usually proposed by shareholders
+- Amendments to bylaws or articles of association
+- Mergers and acquisitions, takeovers, and asset sales
+- Capital increases
+- Voluntary firm liquidation
+
+**The Cash Conversion Cycle**
+![Board Structure](TheCashConversionCycle.png)
+**有效年利率（EAR, Effective Annual Rate）**
+\[
+EAR=\left(1+\frac{Discount}{1-Discount}\right)^{\frac{365}{Net-Discount\ days}}-1
+\]
+
+| 指标 | 公式 |
+|---|---|
+| Net Working Capital（净营运资本） | Accounts Receivable + Inventory − Accounts Payable |
+| Net Working Capital as % of Sales（净营运资本占销售额比例） | Net Working Capital ÷ Sales |
+| Days Sales Outstanding（应收账款周转天数） | Accounts Receivable ÷ Sales × 365 |
+| Days Inventory on Hand（库存持有天数） | Inventory ÷ Cost of Goods Sold × 365 |
+| Days Payable Outstanding（应付账款周转天数） | Accounts Payable ÷ Cost of Goods Sold × 365 |
+| Cash Conversion Cycle（现金转换周期） | Days Sales Outstanding + Days Inventory on Hand − Days Payable Outstanding |
+
+**Key Liquidity Ratios**
+![alt text](KeyLiquidityRatios.png)
+1. 流动比率（Current Ratio）
+衡量企业用全部流动资产偿还短期债务的能力。
+
+$$
+\text{Current Ratio} = \frac{\text{Current Assets}}{\text{Current Liabilities}}
+$$
+
+2. 速动比率（Quick Ratio / Acid-Test Ratio）
+从流动资产中**扣除变现能力较慢的存货（Inventory）**，衡量企业快速偿债的能力。
+
+$$
+\text{Quick Ratio} = \frac{\text{Cash} + \text{ST Marketable Securities} + \text{Accounts Receivable}}{\text{Current Liabilities}}
+$$
+
+> **简化形式（逻辑等价）：**
+> 
+> $$
+> \text{Quick Ratio} = \frac{\text{Current Assets} - \text{Inventory}}{\text{Current Liabilities}}
+> $$
+
+3. 现金比率（Cash Ratio）
+最为保守的指标，**仅保留流动性最高的现金和短期有价证券**，衡量极极端情况下的即期偿债能力。
+
+$$
+\text{Cash Ratio} = \frac{\text{Cash} + \text{ST Marketable Securities}}{\text{Current Liabilities}}
+$$
+
+**Cash Flows**
+
+1. 经营活动现金流（Cash Flow from Operations, CFO）
+
+$$
+\begin{aligned}
+\text{CFO} = & \ \text{Cash received from customers} \\
+& + \text{Interest and dividends received on financial investments} \\
+& - \text{Cash paid to employees and suppliers} \\
+& - \text{Taxes paid to governments} \\
+& - \text{Interest paid to lenders}
+\end{aligned}
+$$
+
+2. 自由现金流（Free Cash Flow, FCF）
+
+① 基础自由现金流
+$$
+\text{Free Cash Flow (FCF)} = \text{Cash Flow from Operations (CFO)} - \text{Investments in long-term assets}
+$$
+
+② 可供债权人与股权投资者分配的自由现金流
+$$
+\text{FCF (for Debt \& Equity)} = \text{CFO} - \text{Investments in long-term assets} + \text{Interest paid to lenders}
+$$
+
+**Conservative Working Capital Approach: Pros & Cons**
+
+| Pros | Cons |
+| :--- | :--- |
+| **Stable, permanent financing** avoids rollover risk associated with short-term debt | **Long-term debt** typically involves a higher interest rate |
+| **Financing costs** are known upfront | **High cost** of equity |
+| **Certainty** of working capital needed to purchase the necessary inventory | **Permanent financing** eliminates the opportunity to borrow only as needed |
+| **Extended payment term** reduces short-term cash needs for debt service | **A longer lead time** is often required to establish the financing position |
+| **Higher flexibility** during market disruptions that can be covered by larger cash or marketable securities positions | **Long-term debt** may involve more restrictions on business operations |
+
+**Aggressive Working Capital Approach: Pros & Cons**
+
+| Pros | Cons |
+| :--- | :--- |
+| **Lower financing cost** | **Interest expense may fluctuate** as rates on short-term financing change |
+| **Flexibility to borrow only as needed** reduces overall interest expense | **May result in higher short-term cash needs** to satisfy debt maturities |
+| **Short-term debt usually involves fewer restrictions** on business operations | **Rollover risk of short-term debt** increases bankruptcy risk, particularly during market disruptions |
+| **Flexibility to refinance** if rates decline | **May have to rely on more costly trade credit**, tighten customer credit, or sell receivables if unable to refinance at favorable terms |
+
+**Moderate Working Capital Approach: Pros & Cons**
+
+| Pros | Cons |
+| :--- | :--- |
+| **Lower financing cost** versus conservative approach; **lower risk** than aggressive approach | **Access to short-term capital may be limited** for seasonal or growth needs |
+| **Flexibility to increase financing** for seasonal requirements or growth as needed | **Uncertain cost of short-term debt** for variable needs during market disruptions |
+| **Diversified sources of funding**, with a more disciplined approach to balance sheet management | **May have to rely on more costly trade credit** to meet seasonal or growth needs if unable to refinance at favorable terms |
+
 ### 生词
 financial acumen 财务敏锐度
 joint ventures 合资企业
@@ -546,11 +908,80 @@ incumbent 现任者
 emerging economies 
 stewardship 管理责任
 claim against 对...索偿权
+compromised 遭到破坏
+vested interest 既得利益
+vested interest 酬劳
+stewardship 受托责任、监管责任
+espousing 倡导
+pilferage 盗窃
+sabotage 破坏
+inception 开端
+prudence 谨慎
+simultaneous elections 同步选举
+constant reassessment 持续重新评估
+attrition 自然减员
+controversy 争议
+constituency 利益群体
+preside 主持
+retention 留存率
+bespoke 定制的、量身定制的
+Whistleblower schemes 
+soundness 稳健性
+substantial 相当大的
+industrial waste contamination 工业废弃物污染
+ocal resource depletion 当地资源枯竭
+litigation 诉讼
+carcinogenic 致癌的
+vulnerable 脆弱的
+lax cybersecurity 网络安全措施松懈
+disgorgement of profits 利润返还
+substantial upheaval 重大动荡
+ingredient 配料
+unduly 不恰当的
+Entrenchment 固守
+Tactics 战术
+frustrated  沮丧
+idiosyncratic 特立独行
+ballot 选票
+Shareholder Activism 股东维权
+shareholder derivative lawsuits 股东代表诉讼
+Hostile takeover 恶意收购
+Tender offer 要约收购
+Bond Indenture 债券契约
+ad hoc committee  特别委员会、临时委员会
+integrity 诚信
+appraises 评估
+contingent on 取决于
+rational 合理的
+Whistleblowers 举报人
+preferential 优惠的
+deliberately manipulated 蓄意操纵
+blatant 公然
+conspiracy 阴谋 
+Employee attrition 人员流失率
+affiliates 附属机构
+off-the-rack 现成服装
+eschew 避开
+upfront deposits 预付定金
+installment payments 分期付款
+deteriorating 恶化
+apparel 服装
+perishable 易腐的
+pitfall 陷阱
 
 ### Glossary
 **A**
 Accredited investors
 Investors that meet certain minimum regulatory net worth or other requirements in order to invest in certain types of alternative assets.
+
+Ad hoc committee
+A small group of lenders or bondholders who negotiate with an issuer on debt restructuring and refinancing before the issuer submits a final proposal to the wider group of all lenders and bondholders.
+
+Agency costs
+Direct and indirect costs borne by the principal in a principal-agent relationship owing primarily to information asymmetries. Agency costs include the costs of monitoring and assessing the agent as well as missed opportunities.
+
+Annual general meeting (AGM)
+A yearly meeting of the corporate board of directors and shareholders, typically held in person and digitally, during which votes on directors, compensation plans, shareholder resolutions, and any other matters properly brought forward at the meeting are held. Issuer management may also make presentations and hold events.
 
 **B**
 Board of directors
@@ -558,6 +989,12 @@ A body or individual selected by a limited company’s member(s) or shareholder(
 
 Businesses
 Organization entities formed and managed for the purpose of providing a return or economic benefits to its investors and owners.
+
+Bondholders
+Investors in an entity’s securitized debt claims, such as commercial paper, notes, and bonds. Common types of bondholders include investment funds and institutional investors.
+
+Bond indenture
+A legal document between a bond issuer and investors that governs each party’s rights and responsibilities.
 
 **C**
 Companies
@@ -568,6 +1005,21 @@ Limited companies or corporations that seek financing in financial markets by, f
 
 Corporations
 Another term for limited companies, though often used to refer to public limited companies. See limited company, private limited company, and public limited company.
+
+Controlling shareholder
+An individual or entity that owns a majority of the voting rights in a corporation.
+
+Cash conversion cycle
+The amount of time between an issuer paying its suppliers in cash and receiving cash from its customers.
+
+Cash flow from operations
+A cash profit measure over a period for an issuer’s primary business activities. It includes cash from customers as well as interest and dividends received from financial investments, less cash paid to employees and suppliers as well as taxes paid to governments and interest paid to lenders.
+
+Cash ratio
+A measure of liquidity that is the ratio of cash and marketable securities to current liabilities.
+
+Current ratio
+A measure of liquidity that is the ratio of current assets to current liabilities.
 
 **D**
 Debt
@@ -582,6 +1034,26 @@ Distributions of profits and/or net assets from a corporation to its shareholder
 Double taxation
 Income is taxed twice.
 
+Dilution
+An increase in the number of shares outstanding from share issuance that decreases the percentage of shares owned by existing shareholders.
+
+Dual-class structure
+A capital structure that includes at least two classes of equity shares with unequal voting rights.
+
+Days of inventory on hand (DOH)
+The average number of days it would take to sell the amount of inventory on hand. It is calculated as either the ending or average balance of inventories divided by (cost of goods sold/days in the period).
+
+Days payable outstanding (DPO)
+The average number of days it takes a company to pay its suppliers. It is calculated as either the ending or average balance of accounts payable divided by (cost of goods sold/days in the period).
+
+Days sales outstanding (DSO)
+The average number of days it takes for a company to receive payment from customers who purchase goods or services on credit. It is calculated as either the ending or average balance of accounts receivable divided by (revenues/days in the period).
+
+Drag on liquidity
+An action or event that reduces available funds or delays cash inflows.
+
+
+
 **E**
 Equity
 Ownership interest in an entity. A residual claim on the assets of an entity after more senior claims, such as debt, have been satisfied. Also known as net assets.
@@ -589,9 +1061,21 @@ Ownership interest in an entity. A residual claim on the assets of an entity aft
 Exchange
 A rules-based, open access market venue where financial instruments are traded, with price and volume transparency accessible by issuers, investors, and their intermediaries.
 
+Employee stock ownership plan (ESOP)
+A type of employee benefit plan in which a company sets up a trust fund to receive contributions of newly issued shares or cash to buy existing shares. Contributions are tax deductible up to certain limits. Shares in the trust fund are allocated to individual employees based on relative pay or a formula.
+
+Extraordinary general meetings (EGMs)
+Meetings besides an AGM of the corporate board and shareholders, typically held to deliberate and vote on urgent matters. Corporate charters and bylaws specify who can call an EGM and under what conditions.
+
 **F**
 Free float
 The portion of a listed company’s equity securities that are not held by insiders, strategic investors, sponsors, founders, and so on, that are more freely available for trading.
+
+Financial leverage
+The use of debt in the capital structure. Measured using ratios such as operating income to operating income less interest expense, total assets to total equity, or debt to equity.
+
+Free cash flow
+The actual cash that would be available to the company’s investors after making all investments necessary to maintain the company as an ongoing enterprise (also referred to as free cash flow to the firm); the internally generated funds that can be distributed to the company’s investors (e.g., shareholders and bondholders) without impairing the value of the company.
 
 **G**
 General partners (GPs)
@@ -600,9 +1084,24 @@ Private fund managers responsible for sourcing and deploying capital from limite
 General partnership
 A business organizational form owned entirely by general partners.
 
+**H**
+Human capital
+The present value of an individual’s future expected labor income.
+
+Hostile takeover
+When a potential acquirer seeks to acquire a company (the target) against the wishes of the target’s board of directors. Typically, a tender offer is used to carry out the hostile takeover, against which a board might use a poison pill in its defense.
+
+
+
 **I**
 Initial public offering (IPO)
 The first issuance of common shares to the public by a formerly private corporation.
+
+Independent directors
+Members of a corporation’s board of directors who do not have an employment or familial relationship with the company, nor do they have a relationship that would impair their independence such as an economic interest in a vendor or competitor of the company.
+
+Inside directors
+Members of a corporation’s board of directors who are not independent. Typically, inside directors are employees or founders (and their family) of the company.
 
 **L**
 Limited company
@@ -617,9 +1116,35 @@ Closed-end form of ownership frequently used in private market funds in which pr
 Limited partners (LPs)
 Outside investors in a private market fund who own a fractional interest in a limited, closed-end partnership managed by a general partner based on the investment commitment and other terms set out in a limited partner agreement.
 
+Liquidity
+The extent to which a company is able to meet its short-term obligations using cash flows and those assets that can be readily transformed into cash.
+
+
+
+**M**
+Material
+(materiality) Refers to information that is decision-useful for a reasonable investor.
+
+Minority shareholder
+An individual or entity that owns less than a majority of the voting rights in a corporation.
+
+
+
+**N**
+Negative externalities
+A cost to a third party because of the production or consumption of a good or service.
+
+Net working capital
+Working capital excluding short-term items unrelated to business operations, such as cash, marketable securities, and short-term debt.
+
+
+
 **O**
 Organizational form
 A legal and tax classification of a business, specific to a jurisdiction, that determines the organization’s legal identity, owner–manager relationship, owner liability, taxation, and access to financing.
+
+Operating cycle
+The length of time between a company’s acquisition of goods or raw materials and the collection of cash from sales to customers.
 
 **P**
 Pass-through businesses
@@ -640,6 +1165,31 @@ A type of limited company in many jurisdictions with entity-level taxation but n
 Public (listed) company
 A company with its equity securities traded on an exchange.
 
+Physical risks
+Economic and financial losses from the increase in the severity and frequency of extreme weather due to climate change—for example, the loss of coastal real estate from a storm.
+
+Private debtholders
+Investors in an entity’s non-securitized debt claims, such as a loan or lease. The most common type of private debtholder is a bank.
+
+Poison pill
+Officially known as a shareholder rights plan, a poison pill is a hostile-takeover defense adopted by boards of directors according to rules specified in the corporate charter. There are several types of poison pills. Generally, they allow shareholders, excluding the shareholder making the hostile bid and their affiliates, to buy newly issued shares at a discounted price. The share issuance would dilute the bidder’s ownership percentage, rendering it impossible for the bidder to attain control.
+
+Principal-agent relationship
+An arrangement in which one party (the agent) has authority to act for or on behalf of another party (the principal). Such an arrangement imposes a duty on the agent to act in the principal’s best interest.
+
+Proxy contest
+When a shareholder or group of shareholders campaigns for certain matters they have submitted to a shareholder vote, often a slate of directors who oppose the incumbent board and management. The incumbent board and management simultaneously campaign for their side.
+
+Proxy voting
+A form of casting a ballot in an election in which a voter authorizes a representative to vote on their behalf according to instructions. In corporate elections, proxy ballots are cast by shareholders that direct a representative, typically the corporate secretary, to enter their votes as instructed.
+
+Pull on liquidity
+An action or event that accelerates cash outflows.
+
+**Q**
+Quick ratio
+A measure of liquidity that is the ratio of cash, marketable securities, and receivables to current liabilities.
+
 **S**
 Security
 Evidence of equity or debt interest or in an entity or a related right, such as a derivative. Often standardized to conform to security exchange requirements.
@@ -658,6 +1208,47 @@ A “blank check” company that exists solely for the purpose of acquiring an u
 
 Stock exchange
 An exchange in which equity securities are traded. See exchanges.
+
+Shareholder theory of corporate governance
+Espoused by Milton Friedman in his famous 1970 essay, the shareholder theory holds that the objective of a business is to increase profits and shareholder value.
+
+Staggered board
+A structure of board elections in which only part of the board is elected simultaneously—for example, only one-third of the board may be up for election each year, so the board can be replaced over three years, not in one year if all seats were elected annually. This structure fosters greater continuity of board members but is an obstacle for shareholders seeking to effect change.
+
+Stakeholders
+Any party with an interest, financial or non-financial, in an entity or its actions.
+
+Stakeholder theory of corporate governance
+An expansion of the shareholder theory of corporate governance under which the objective of a business is to maximize value for, and balance the interests of, a broad group of stakeholders, including shareholders, employees, society, and the non-human environment.
+
+Stranded assets
+A resource that is no longer economically valuable owing to changes in demand, regulations, or availability of substitutes—for example, a newly discovered oil well that will not be brought into production.
+
+Supervisory board
+In some jurisdictions, a corporation’s board of directors is formally composed of a supervisory board and a management board. The supervisory board appoints and oversees the management board and often includes representatives of employees and other non-shareholder stakeholders.
+
+Share class
+Types of equity securities that have different voting rights—for example, an issuer may issue Class A shares that carry one vote per share and Class B shares that carry ten votes per share.
+
+Shareholder activism
+A range of actions by a corporation’s shareholders that are intended to result in some change in the corporation, typically a change in the board of directors, management, or business strategy.
+
+Shareholder derivative lawsuit
+A legal action by a shareholder on behalf of a company, not the shareholder personally, against a third party. Often, the third party is a director or manager who the shareholder believes has harmed the company.
+
+Statement of cash flows
+A financial statement that details the movement of cash over a period. The statement is classified into operating, investing, and financing activities.
+
+
+**T**
+Transition risks
+Economic and financial losses from the transition to a lower-carbon economy in response to climate change—for example, the abandonment of an oil well that is no longer economical.
+
+Tender offer
+A solicitation by a current or prospective shareholder to other shareholders to acquire a substantial percentage, including 100%, of shares at a specified price. This action is usually undertaken by a potential acquirer whose bid was rejected by the issuer’s board of directors, prompting the potential acquirer to appeal directly to shareholders.
+
+Total working capital
+The difference between current assets and current liabilities.
 
 **V**
 Voting rights
