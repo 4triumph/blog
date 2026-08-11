@@ -579,8 +579,104 @@ C. 1,550
     $$\text{实际成本} = 200,000 \times 0.5\% = \mathbf{\text{CAD } 1,000}$$
   * 仅需支付少量手续费即可即时获得 20 万现金，是所有选项中 **摩擦成本最小（1,000 < 4,000 < 22,222）** 且最合理的方案。
 ---
+20.**题干**：When calculating IRR, the interim cash flows are assumed to be reinvested and earn a rate of return rate that is:
+在计算 IRR（内部收益率）时，假设中间产生的现金流（interim cash flows）再投资时所获得的收益率是：
+  * A. 低于 IRR
+  * B. **与 IRR 相同（the same as IRR）**
+  * C. 高于 IRR
+
+正确答案：B
+**IRR 的数学本质与再投资假设**
+IRR（Internal Rate of Return）是使项目净现值等于零（$\text{NPV} = 0$）的折现率：
+
+$$\text{NPV} = \sum_{t=0}^{n} \frac{CF_t}{(1 + \text{IRR})^t} = 0$$
+
+在几何含义上，**只有当项目在生命周期内产生的每一笔中间现金流（$CF_1, CF_2, \dots$）都能以“等于 IRR 本身”的年化收益率进行再投资时，投资者在整个项目期间获得的实际几何年化回报率（Compound Rate of Return）才真正等于 IRR**。
+
+**IRR vs. NPV 再投资假设对比**
+
+| 指标 | 再投资收益率假设（Reinvestment Rate Assumption） | 假设合理性评价 |
+| :--- | :--- | :--- |
+| **IRR (内部收益率)** | 假设按 **IRR 本身** 重新投资 | **不太合理（过于乐观）**。<br>若项目的 IRR 极高（如 30%），现实中很难找到收益率同样高达 30% 的新项目进行再投资，因此 IRR 常会**高估**实际投资回报率。 |
+| **NPV (净现值)** | 假设按 **资本成本 / 资金成本（Cost of Capital / WACC）** 重新投资 | **更合理、更保守**。<br>资本成本反映了市场上同等风险水平项目的基准回报率，现实中更容易实现。 |
+---
+21.ROIC 与 NPV/IRR 的数据来源与可获取性对比
+
+> **原文**：When calculating ROIC, an independent analyst should add equity and long-term liabilities to calculate average invested capital. ROIC, unlike project NPV and IRR, can be calculated using data available to independent investment analysts.
+>
+> **翻译**：在计算投资资本回报率（ROIC）时，独立分析师应当将 **股东权益（Equity）** 与 **长期负债（Long-term liabilities）** 相加来计算平均投资资本。与单项项目的 NPV（净现值）和 IRR（内部收益率）不同，ROIC 可以利用外部独立投资分析师所获取的（公开财务）数据计算得出。
+
+**投资资本（Invested Capital）的计算方式**
+分析师评估公司总资本时，从 **融资端（资本来源）** 汇总：
+
+$$\text{投资资本 (Invested Capital)} = \text{股东权益 (Equity)} + \text{长期负债 (Long-Term Liabilities)}$$
+
+$$\text{ROIC} = \frac{\text{息前税后利润 (NOPAT)}}{\text{平均投资资本 (Average Invested Capital)}}$$
+
+**ROIC 与 NPV/IRR 的信息可获取性对比**
+
+| 指标 | 评价层面 | 数据来源 | 外部独立分析师能否计算？ |
+| :--- | :--- | :--- | :--- |
+| **ROIC** | **公司整体**（Company-wide） | 公司公开发布的**财务报表**（利润表与资产负债表） | ✅ **可以**（利用公开数据独立计算） |
+| **NPV & IRR** | **具体单一项目**（Project-level） | 公司**内部非公开数据**（如预测的项目未来现金流、初始投入等） | ❌ **无法直接计算**（除非公司主动披露内部项目预测） |
+---
+22.公司资本配置（Capital Allocation）的最佳实践与误区
+
+**题干**：XYZ 公司的年报中包含以下三条披露信息（Disclosures），其中哪一项**不符合**资本配置的最佳实践（Best Practices regarding Capital Allocation）？
+  * **Disclosure 1**：“XYZ 管理层的薪酬激励基于‘每股收益增长率（EPS Growth Rate）超过目标值’。”
+  * **Disclosure 2**：“XYZ 管理层在评估资本项目时，无论项目资金来自内部还是外部，都不改变要求的投资回报率（Required Rate of Return）。”
+  * **Disclosure 3**：“在评估投资项目时，XYZ 根据剔除通胀影响后的现金流（Inflation-adjusted cash flows）编制预测，并使用实际折现率（Real rates）进行折现。”
+
+**正确答案**：**A. Disclosure 1**（不符合最佳实践）
+
+ ❌ Disclosure 1（违背最佳实践的原因）
+* **核心误区**：以短期 **EPS 增长率** 作为管理层薪酬激励的唯一或核心指标。
+* **为何错误**：
+  1. **可能毁损长期价值**：一些净现值为正（NPV > 0）的优质长期项目，在实施初期（近几年）可能会**暂时拉低/减少 EPS**。如果薪酬绑定 EPS 增长，管理层会为了短期奖金而拒绝这些能为股东创造长期价值的好项目。
+  2. **管理层道德风险**：管理层可以通过**大额股票回购（Share Buybacks）**或**盲目增加高风险债务杠杆**来虚高 EPS，而无需改善真实的经营效率。
+* **最佳实践**：薪酬激励应包含长期视角，并结合能全面衡量资本使用效率与风险的指标（如 **ROIC** 或 **EVA**）。
+
+✅ Disclosure 2（符合最佳实践的原因）
+* **核心原理**：**资金的使用与资金的来源是相互独立的（Separation of Investment and Financing Decisions）**。
+* **正确逻辑**：内部留存收益（Internal Capital）**并不是免费的**，它的机会成本就是股东权益资本成本（Cost of Equity）。如果不开设新项目，这些资金完全可以作为股利派发给股东。因此，**项目的要求回报率取决于该项目自身的风险（Risk-adjusted Return），而不是取决于资金是从内部掏还是从外部借**。
+
+✅ Disclosure 3（符合最佳实践的原因）
+* **核心原理**：**现金流与折现率必须保持一致性（Consistency Principle）**。
+* **正确逻辑**：
+  * **名义现金流（Nominal Cash Flows）** $\rightarrow$ 用 **名义折现率（Nominal Discount Rate）** 折现。
+  * **实际现金流（Real / Inflation-adjusted Cash Flows）** $\rightarrow$ 用 **实际折现率（Real Discount Rate）** 折现。
+  * 只要匹配得当，两种方式算出来的 NPV 是完全相同的，Disclosure 3 采用“实际现金流 + 实际折现率”，完全合规。
+---
+23.公司资本配置过程（Capital Allocation Process）的特征
+
+**题干**：关于公司的资本配置过程（Capital Allocation Process），以下哪项表述是**正确**的？
+  * **A. 涉及使用关于公司的大量专有、非公开信息（proprietary, non-public information）。**
+  * **B. 旨在识别具有最高绝对非风险调整收益率（absolute non-risk-adjusted rate of returns）的项目。**
+  * **C. 与构建投资管理组合（portfolio construction）的过程相比，使用的信息更少。**
+
+**正确答案**：**A**
+
+✅ A 选项（为什么正确）
+* **核心原理**：资本配置是**公司内部管理层与董事会**做出的投资决策（如建造新厂房、开发新产品）。
+* **信息优势**：内部管理人员（Insiders）不需要像外部分析师那样等待季报披露，他们可以使用**实时（Real-time）、更微观粒度（More granular）且高度保密的内部非公开数据（Proprietary, non-public information）**。
+
+❌ B 选项（为什么错误）
+* **核心误区**：错在“非风险调整（non-risk-adjusted）”。
+* **正确逻辑**：资本配置的真正目标是追求**更高的风险调整后收益（Superior risk-adjusted returns）**。任何不考虑风险、仅追求绝对最高收益率的决策都是不合理的。
+
+❌ C 选项（为什么错误）
+* **核心误区**：错在“使用的信息更少（uses less information）”。
+* **正确逻辑**：公司内部做资本配置时使用的信息**远多于、且远比外部分析师构建投资组合时更精细（More granular）**。外部分析师通常只能依赖公开财报及合法获取的非重大非公开信息（在公司或业务板块层面），而内部管理层掌握的是项目级别的微观实况。
+
+| 比较维度 | 公司资本配置（Capital Allocation） | 外部投资组合构建（Portfolio Management） |
+| :--- | :--- | :--- |
+| **决策主体** | 公司内部管理层与董事会（Insiders） | 外部投资经理 / 分析师（Outsiders） |
+| **信息来源** | **大量内部专有、非公开信息**（实时、微观） | 公开财务报表、公开研报（受合规限制） |
+| **决策粒度** | **更精细**（深入到具体的单一项目级别） | 相对宏观（公司级别、业务板块级别） |
+| **核心目标** | 追求**风险调整后的超额收益**（Risk-adjusted returns） | 追求风险与收益的最佳匹配（Efficient Frontier） |
 
 
+---
 ---
 
 ### note
@@ -968,6 +1064,9 @@ deteriorating 恶化
 apparel 服装
 perishable 易腐的
 pitfall 陷阱
+standalone basis 单独计算
+salvage value 残值
+press release 新闻稿
 
 ### Glossary
 **A**
