@@ -675,6 +675,160 @@ $$\text{ROIC} = \frac{\text{息前税后利润 (NOPAT)}}{\text{平均投资资�
 | **决策粒度** | **更精细**（深入到具体的单一项目级别） | 相对宏观（公司级别、业务板块级别） |
 | **核心目标** | 追求**风险调整后的超额收益**（Risk-adjusted returns） | 追求风险与收益的最佳匹配（Efficient Frontier） |
 
+---
+24.**Capital Allocation Biases：Inertia / Sunk Cost / Pet Project**
+An analyst is analyzing company XYZ and has gathered annual invested capital and ROIC for each of the three XYZ business segments.
+| Segment | CapEx 20X0 ($m) | CapEx 20X1 ($m) | CapEx 20X2 ($m) | ROIC 20X0 | ROIC 20X1 | ROIC 20X2 |
+|:---:|---:|---:|---:|---:|---:|---:|
+| A | 264 | 282 | 303 | 7.50% | 7.10% | 6.80% |
+| B | 297 | 318 | 340 | 10.00% | 8.90% | 7.10% |
+| C | 211 | 226 | 242 | 6.90% | 7.80% | 9.00% |
+
+Based on the information provided, XYZ’s management is most likely prone to which of the following biases?
+A. Inertia
+B. Sunk cost
+C. Pet project
+
+**答案：A. Inertia（惯性偏差）**
+核心判断
+> **Capital Investment ↑ + ROIC ↓ → Inertia**
+
+本题：
+- Segment A：投资 `264 → 282 → 303 ↑`，ROIC `7.5% → 7.1% → 6.8% ↓`
+- Segment B：投资 `297 → 318 → 340 ↑`，ROIC `10.0% → 8.9% → 7.1% ↓`
+- Segment C：投资 ↑，ROIC ↑
+A、B 出现 **投入增加但回报下降**，说明管理层可能因为惯性继续向表现变差的业务配置资本。
+
+**Inertia（惯性偏差）✅**
+定义：管理层因为惯性，**继续按照过去的方式配置资本**，即使投资回报已经下降。
+识别信号
+> **Capital Investment ↑ / Static + ROIC ↓**
+
+**Sunk Cost（沉没成本）❌**
+定义：已经发生且无法收回的成本。
+进行投资决策时，**过去已经发生的成本应该忽略**，只考虑未来的增量收益和成本。
+识别信号
+> “已经投入很多钱了，所以不能放弃。”
+
+**Pet Project（宠儿项目）❌**
+定义：管理层特别偏爱的某个项目，即使项目回报不好，也坚持投资。
+识别信号
+> **Management favorite + Poor economics**
+
+**三种 Bias 对比**
+
+| Bias | 核心特征 | 关键词 |
+|---|---|---|
+| **Inertia** | 回报下降仍继续投资 | **Investment ↑ + ROIC ↓** |
+| **Sunk Cost** | 因为过去已经花钱，所以继续 | **Past cost → Future decision** |
+| **Pet Project** | 管理层特别偏爱的项目 | **Management favorite** |
+
+---
+25. **Real Options**
+
+题目：Which statement about real options is true?
+A. Using option pricing models estimates an option’s value with the highest accuracy.
+B. Real options allow companies to abandon an investment project if its profitability is poor.
+C. Real options would allow a refinery to hedge future prices of crude oil needed for production.
+
+**答案：B. Real options allow companies to abandon an investment project if its profitability is poor.**
+
+**Real Option（实物期权）**
+Real options 给企业在未来做决策的 **flexibility（灵活性）**。
+
+常见类型：
+
+- **Abandonment option**：项目表现不好时，可以放弃项目
+- **Expansion option**：项目表现好时，可以扩大投资
+- **Delay option**：可以推迟投资，等待更多信息
+- **Switching option**：可以在不同生产方式/投入之间切换
+
+本题：如果项目开始后发现盈利能力很差：
+> 公司可以选择 **abandon（放弃）** 项目。
+→ 这就是 **Abandonment Option**
+所以 **B 正确**。
+
+A. Option Pricing Models ❌
+> Using option pricing models estimates an option’s value with the highest accuracy.
+
+错误。
+虽然可以使用 option pricing models 对 real options 定价，但问题在于：
+- Real options 有很多 **unobservable inputs（不可观察的输入）**
+- 例如：
+  - Probability of future events
+  - Timing of future events
+  - 其他项目特定参数
+因此：
+> **复杂的模型 ≠ 更高的准确性**
+
+C. Hedging Commodity Prices ❌
+
+> Real options allow a refinery to hedge future crude oil prices.
+
+错误。
+Real options 的作用是：
+> **提供未来决策的灵活性（flexibility）**
+
+而不是：
+> **对冲商品价格风险（hedging）**
+
+例如炼油厂担心未来原油价格上涨：
+- 使用 **financial options** → 可以 hedge crude oil price risk
+- **Real options** → 提供投资/生产决策的 flexibility
+
+**三个选项快速判断**
+
+| 选项 | 判断 | 原因 |
+|---|:---:|---|
+| A | ❌ | Real options 有不可观察参数，模型复杂不代表准确 |
+| B | ✅ | **Abandonment option** 允许项目表现差时放弃 |
+| C | ❌ | 商品价格风险应使用 **financial options** 对冲 |
+
+---
+26.题目：Company XYZ is considering expanding its distribution center in a foreign country. The local government is working on a new environmental regulation that introduces subsidies and tax breaks for investments related to renewable energy. Once the new law is approved, XYZ could upgrade the distribution center at lower cost. If the company decides to wait for the new regulation to come into effect, it will have to bear project-related costs of $1.8 million. XYZ’s finance team estimates that if the company waits, the NPV of the project will be $9.7 million, compared to a current value of $8.9 million. Calculate option value.
+Solution
+To determine option value, we need to compare the project value with and without the option and additionally consider option cost.
+```
+Project NPV (with option) = $9.7 million.
+Project NPV (without option) = $8.9 million.
+Option cost = $1.8 million.
+Project NPV (with option) = Project NPV (without option) – Option cost + Option value.
+$9.7 million = $8.9 million – $1.8 million + Option value.
+Option value = $2.6 million.
+```
+
+---
+27.题目：
+Nutry, Inc., has a capital structure of 30% debt and 70% equity, and interest expense is tax deductible. Debt investors require a before-tax return of 5%, and equity investors’ required return is 10%. If the marginal corporate tax rate is 20%, the WACC is closest to:
+A. 5.9%.
+B. 8.2%.
+C. 8.5%.
+Solution
+B is correct. Nutry’s WACC is calculated as follows:
+
+WACC = (Weighting of debt × Cost of debt) + (Weighting of equity × Cost of equity)
+= (0.3)(5%)(1 – 0.2) + (0.70)(10%) = 8.2%.
+Thus, the WACC for Nutry is 8.2%. The cost of debt is stated on an after-tax basis because interest expense is tax deductible in Nutry’s jurisdiction.
+
+---
+28.题目
+The amount and type of financing needed or the weights in the WACC calculation depend on the issuer’s:
+A. Business model（商业模式）
+B. Financial leverage（财务杠杆）
+C. Proportion of fixed cost to total costs（固定成本占总成本的比例）
+正确答案
+A. Business model（商业模式）
+核心原因
+商业模式决定企业需要多少资产和资金：
+制造业、航空业等属于 capital intensive（资本密集型），融资需求较大。
+软件、咨询业等属于 capital light（轻资产型），融资需求较小。
+企业所处的生命周期也会影响融资类型：初创企业更依赖股权融资，成熟企业通常更容易进行债务融资。因此，商业模式和生命周期会影响 WACC 中的债务与股权权重。
+
+---
+29.股东价值与 WACC
+题目： Shareholder value is increased by a ____ return on investment and a capital structure that results in a ____ WACC.
+答案： higher；lower
+理解： 投资回报率越高，资金创造的收益越多；WACC 越低，资金成本越低。两者都有助于增加股东价值。
 
 ---
 ---
@@ -877,7 +1031,7 @@ flowchart TB
 | 可用于借壳上市（Reverse Takeover） | 可用于 SPAC 合并上市（SPAC Merger） |
 
 **Principal-Agent and Other Relationships**
-![Board Structure](Principal-AgentandOtherRelationships.png)
+![Board Structure](./corporateissuers_pic/Principal-AgentandOtherRelationships.png)
 
 **Matters presented for a shareholder vote at EGMs are idiosyncratic but commonly include the following:**
 
@@ -888,7 +1042,7 @@ flowchart TB
 - Voluntary firm liquidation
 
 **The Cash Conversion Cycle**
-![Board Structure](TheCashConversionCycle.png)
+![Board Structure](./corporateissuers_pic/TheCashConversionCycle.png)
 **有效年利率（EAR, Effective Annual Rate）**
 \[
 EAR=\left(1+\frac{Discount}{1-Discount}\right)^{\frac{365}{Net-Discount\ days}}-1
@@ -904,7 +1058,7 @@ EAR=\left(1+\frac{Discount}{1-Discount}\right)^{\frac{365}{Net-Discount\ days}}-
 | Cash Conversion Cycle（现金转换周期） | Days Sales Outstanding + Days Inventory on Hand − Days Payable Outstanding |
 
 **Key Liquidity Ratios**
-![alt text](KeyLiquidityRatios.png)
+![alt text](./corporateissuers_pic/KeyLiquidityRatios.png)
 1. 流动比率（Current Ratio）
 衡量企业用全部流动资产偿还短期债务的能力。
 
@@ -984,6 +1138,32 @@ $$
 | **Lower financing cost** versus conservative approach; **lower risk** than aggressive approach | **Access to short-term capital may be limited** for seasonal or growth needs |
 | **Flexibility to increase financing** for seasonal requirements or growth as needed | **Uncertain cost of short-term debt** for variable needs during market disruptions |
 | **Diversified sources of funding**, with a more disciplined approach to balance sheet management | **May have to rely on more costly trade credit** to meet seasonal or growth needs if unable to refinance at favorable terms |
+
+**Return on Invested Capital（ROIC）**
+
+- **ROIC（投入资本回报率）**，也称 **ROCE（资本使用回报率）**
+- 衡量管理层投入的**全部资本的盈利能力**
+- 通常使用**年度税后利润**，因此 ROIC 是年度指标
+
+$$
+ROIC=\frac{\text{After-tax Profit}}{\text{Invested Capital}}
+$$
+
+为什么使用 ROIC？
+- 分析师通常无法获得单个项目的详细现金流
+- 因此难以独立计算或审计项目的 **NPV / IRR**
+- ROIC 可利用公司整体财务数据，衡量**整体资本配置效率**
+
+Invested Capital
+
+- 分母代表企业投入的**总资本**
+- **不包括 Working Capital（营运资本）**
+![alt text](./corporateissuers_pic/ReturnonInvestedCapital.png)
+
+> **核心：ROIC = 税后利润 ÷ 投入资本**
+
+**Real option**
+Project NPV = NPV (without options) – Option cost + Option value.
 
 ### 生词
 financial acumen 财务敏锐度
@@ -1067,6 +1247,8 @@ pitfall 陷阱
 standalone basis 单独计算
 salvage value 残值
 press release 新闻稿
+inception 开端
+Capital-Intensive Businesses 资本密集型企业
 
 ### Glossary
 **A**
@@ -1081,6 +1263,12 @@ Direct and indirect costs borne by the principal in a principal-agent relationsh
 
 Annual general meeting (AGM)
 A yearly meeting of the corporate board of directors and shareholders, typically held in person and digitally, during which votes on directors, compensation plans, shareholder resolutions, and any other matters properly brought forward at the meeting are held. Issuer management may also make presentations and hold events.
+
+Abandonment option
+The option to terminate an investment at some future time if the financial results are disappointing.
+
+Amortization
+The process of allocating the cost of intangible long-term assets having a finite useful life to accounting periods; the allocation of the amount of a bond premium or discount to the periods remaining until bond maturity.
 
 **B**
 Board of directors
@@ -1120,6 +1308,14 @@ A measure of liquidity that is the ratio of cash and marketable securities to cu
 Current ratio
 A measure of liquidity that is the ratio of current assets to current liabilities.
 
+Capital allocation
+The process that companies use for decision making on capital investments—those projects with a life of one year or longer.
+
+Capital investments
+An expenditure for an asset or resource with a useful life of more than one year.
+
+
+
 **D**
 Debt
 A claim against an entity to receive cash, stock, or other assets at a future date. From the perspective of the debtor or borrower, an obligation to pay cash, stock, or other assets at a future date. Generally, debt claims are unconditional and are senior to equity claims.
@@ -1151,7 +1347,8 @@ The average number of days it takes for a company to receive payment from custom
 Drag on liquidity
 An action or event that reduces available funds or delays cash inflows.
 
-
+Depreciation
+The process of systematically allocating the cost of long-lived (tangible) assets to the periods during which the assets are expected to provide economic benefits.
 
 **E**
 Equity
@@ -1165,6 +1362,11 @@ A type of employee benefit plan in which a company sets up a trust fund to recei
 
 Extraordinary general meetings (EGMs)
 Meetings besides an AGM of the corporate board and shareholders, typically held to deliberate and vote on urgent matters. Corporate charters and bylaws specify who can call an EGM and under what conditions.
+
+Exercise
+The decision to transact the underlying by an option holder.
+
+
 
 **F**
 Free float
@@ -1183,6 +1385,9 @@ Private fund managers responsible for sourcing and deploying capital from limite
 General partnership
 A business organizational form owned entirely by general partners.
 
+Growth option
+The option to make additional investments in a project at some future time if the financial results are strong. Also called an expansion option.
+
 **H**
 Human capital
 The present value of an individual’s future expected labor income.
@@ -1190,7 +1395,8 @@ The present value of an individual’s future expected labor income.
 Hostile takeover
 When a potential acquirer seeks to acquire a company (the target) against the wishes of the target’s board of directors. Typically, a tender offer is used to carry out the hostile takeover, against which a board might use a poison pill in its defense.
 
-
+Hurdle rate
+Also called “preferred return.” The minimum rate of return on investment that a fund must reach before a GP receives carried interest.
 
 **I**
 Initial public offering (IPO)
@@ -1201,6 +1407,12 @@ Members of a corporation’s board of directors who do not have an employment or
 
 Inside directors
 Members of a corporation’s board of directors who are not independent. Typically, inside directors are employees or founders (and their family) of the company.
+
+Internal rate of return (IRR)
+The uniform discount rate for a series of cash flows over n periods that returns a net present value of zero.
+
+Internal rate of return (IRR)
+The uniform discount rate for a series of cash flows over n periods that returns a net present value of zero.
 
 **L**
 Limited company
@@ -1227,7 +1439,11 @@ Material
 Minority shareholder
 An individual or entity that owns less than a majority of the voting rights in a corporation.
 
+Maintenance capital expenditures
+Investments in assets to keep them in operation or increase their efficiency without extending their useful lives.
 
+Match funding
+Financing an asset with a source, such as a loan or bond, that is aligned with certain attributes of the asset, such as duration and the respective streams of income and financing costs.
 
 **N**
 Negative externalities
@@ -1236,7 +1452,8 @@ A cost to a third party because of the production or consumption of a good or se
 Net working capital
 Working capital excluding short-term items unrelated to business operations, such as cash, marketable securities, and short-term debt.
 
-
+Net present value (NPV)
+The present value of an investment’s cash inflows (benefits) minus the present value of its cash outflows (costs).
 
 **O**
 Organizational form
@@ -1285,9 +1502,25 @@ A form of casting a ballot in an election in which a voter authorizes a represen
 Pull on liquidity
 An action or event that accelerates cash outflows.
 
+Pet projects
+A capital investment that is pursued by management but is not economically justifiable by a disinterested party. Motivations for pet projects include self-dealing and vanity.
+
+Price-setting option
+The option to adjust prices when demand or supply varies from what is forecast.
+
+Production flexibility option
+The option to alter production when demand varies from what is forecast.
+
 **Q**
 Quick ratio
 A measure of liquidity that is the ratio of cash, marketable securities, and receivables to current liabilities.
+
+**R**
+Real option
+A right, but not an obligation, for management to make a decision with respect to a capital investment that alters future cash flows from the original forecasted scenario.
+
+Return on invested capital (ROIC)
+A measure of the profitability of a company relative to the amount of capital invested by the equityholders and debtholders.
 
 **S**
 Security
@@ -1338,6 +1571,8 @@ A legal action by a shareholder on behalf of a company, not the shareholder pers
 Statement of cash flows
 A financial statement that details the movement of cash over a period. The statement is classified into operating, investing, and financing activities.
 
+Sunk costs
+A cost that has already been incurred.
 
 **T**
 Transition risks
