@@ -831,6 +831,16 @@ A. Business model（商业模式）
 理解： 投资回报率越高，资金创造的收益越多；WACC 越低，资金成本越低。两者都有助于增加股东价值。
 
 ---
+30.题目：预计经营环境恶化、收入增长放缓时，Newtech 和 Oldtech 哪家公司的现金流及盈利变化更大？
+A. Newtech
+B. No difference
+C. Oldtech
+**答案：C. Oldtech**
+**原因：** Oldtech 的固定成本占比高，**经营杠杆（operating leverage）高**。收入增长放缓时，固定成本难以同步减少，利润因此更容易大幅变化。Newtech 的变动成本占比较高，成本能随收入变化而调整，经营杠杆较低。
+
+**易错点：** 不要仅凭 Oldtech 处于成熟期，就认定它的利润一定更稳定；本题要根据两家公司的**成本结构**判断。
+---
+---
 ---
 
 ### note
@@ -1165,6 +1175,23 @@ Invested Capital
 **Real option**
 Project NPV = NPV (without options) – Option cost + Option value.
 
+**Operating leverage**
+$$
+Operating leverage = \frac{Fixed costs}{Total costs}
+$$
+$$
+Interest coverage = \frac{Profit before interest and taxes}{Interest expense}
+$$
+**企业生命周期与债务类型**
+
+| 企业阶段 | 对应债务 | 原因 |
+|---|---|---|
+| Startup（初创期） | ii. Convertible（可转换债务） | 风险高、现金流不稳定，融资方式有限。 |
+| Growth（成长期） | iii. Secured（有担保债务） | 经营风险有所下降，但自由现金流可能仍为负，债权人需要担保。 |
+| Mature（成熟期） | i. Unsecured（无担保债务） | 自由现金流稳定且可预测，企业有能力获得无担保融资。 |
+
+
+
 ### 生词
 financial acumen 财务敏锐度
 joint ventures 合资企业
@@ -1249,6 +1276,10 @@ salvage value 残值
 press release 新闻稿
 inception 开端
 Capital-Intensive Businesses 资本密集型企业
+semiconductor wafers 半导体晶圆
+fungible 可互换的
+obviating 消除
+subscription 订阅
 
 ### Glossary
 **A**
