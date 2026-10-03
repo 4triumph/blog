@@ -1190,7 +1190,120 @@ $$
 | Growth（成长期） | iii. Secured（有担保债务） | 经营风险有所下降，但自由现金流可能仍为负，债权人需要担保。 |
 | Mature（成熟期） | i. Unsecured（无担保债务） | 自由现金流稳定且可预测，企业有能力获得无担保融资。 |
 
+**Modigliani–Miller无税模型**
+| 符号 | 含义 | 本例数值 |
+|---|---|---:|
+| \(r_U\) | 无负债公司的股权资本成本 | 10% |
+| \(r_D\) | 债务资本成本 | 5% |
+| \(D\) | 债务价值 | €15,000 |
+| \(E\) | 加入债务后的股权价值 | €35,000 |
+| \(CF\) | 公司每年总现金流 | €5,000 |
 
+① 无负债时：永续现金流估值
+\[
+V_U=\frac{CF}{r_U}=\frac{5,000}{10\%}=\boxed{€50,000}
+\]
+② MM命题Ⅰ：资本结构不影响公司总价值
+\[
+V_L=V_U=D+E
+\]
+\[
+E=50,000-15,000=\boxed{€35,000}
+\]
+③ MM命题Ⅱ：负债增加，股权资本成本上升
+\[
+r_E=r_U+(r_U-r_D)\frac{D}{E}
+\]
+\[
+r_E=10\%+(10\%-5\%)\times\frac{15,000}{35,000}=\boxed{12.143\%}
+\]
+④ 加权平均资本成本：仍为10%
+\[
+WACC=\frac{E}{D+E}r_E+\frac{D}{D+E}r_D
+\]
+\[
+WACC=\frac{35,000}{50,000}\times12.143\%+\frac{15,000}{50,000}\times5\%=\boxed{10\%}
+\]
+这里12.143%为四舍五入值，使用精确值计算，WACC恰好为10%。
+⑤ 将现金流分配给债权人和股东
+\[
+CF_D=D\times r_D=15,000\times5\%=\boxed{€750}
+\]
+\[
+CF_E=CF-CF_D=5,000-750=\boxed{€4,250}
+\]
+⑥ 分别折现，再相加验证公司价值
+\[
+V_L=\frac{CF_D}{r_D}+\frac{CF_E}{r_E}
+\]
+\[
+V_L=\frac{750}{5\%}+\frac{4,250}{12.142857\ldots\%}=15,000+35,000=\boxed{€50,000}
+\]
+核心逻辑：债务融资更便宜，但负债使股东风险上升、要求回报率提高，两者恰好抵消，因此WACC和公司总价值不变。
+
+**Modigliani–Miller有税模型**
+| 公式 | 无税模型 | 有公司税模型 |
+|---|---|---|
+| 公司价值 | \(V_L=V_U\) | \(V_L=V_U+tD\) |
+| 股权成本 | \(r_E=r_U+(r_U-r_D)\frac DE\) | \(r_E=r_U+(r_U-r_D)(1-t)\frac DE\) |
+| WACC中的债务成本 | \(r_D\) | \(r_D(1-t)\) |
+| 加入债务的结果 | WACC不变、公司价值不变 | WACC下降、公司价值上升 |
+
+税率 \(t=25\%\)。关键变化是：利息可以抵税，产生税盾，使公司价值增加、WACC下降。
+① 无负债时：税后现金流与公司价值
+\[
+CF_U=5,000(1-t)=5,000\times75\%=€3,750
+\]
+\[
+V_U=\frac{CF_U}{r_U}=\frac{3,750}{10\%}=\boxed{€37,500}
+\]
+② 加入债务后：公司价值增加税盾现值
+在债务永久维持、税盾按债务成本折现的假设下：
+\[
+PV(\text{Tax shield，税盾})=\frac{tDr_D}{r_D}=tD
+\]
+\[
+V_L=V_U+tD=37,500+25\%\times15,000=\boxed{€41,250}
+\]
+股权价值为：
+\[
+E=V_L-D=41,250-15,000=\boxed{€26,250}
+\]
+③ 有税时的股权资本成本
+\[
+r_E=r_U+(r_U-r_D)(1-t)\frac{D}{E}
+\]
+\[
+r_E=10\%+(10\%-5\%)\times75\%\times\frac{15,000}{26,250}=\boxed{12.143\%}
+\]
+④ 有税时的WACC：债务成本需乘 \((1-t)\)
+\[
+WACC=\frac{E}{V_L}r_E+\frac{D}{V_L}r_D(1-t)
+\]
+\[
+WACC=\frac{26,250}{41,250}\times12.142857\ldots\%+\frac{15,000}{41,250}\times5\%\times75\%=\boxed{9.091\%}
+\]
+验证公司价值：
+\[
+V_L=\frac{CF_U}{WACC}=\frac{3,750}{9.090909\ldots\%}=\boxed{€41,250}
+\]
+这里使用的 \(CF_U\) 是扣除公司税、尚未扣除利息的经营现金流。
+⑤ 分别计算债权人与股东的现金流
+债权人收到利息：
+\[
+CF_D=Dr_D=15,000\times5\%=\boxed{€750}
+\]
+股东收到扣除利息、再缴税后的现金流：
+\[
+CF_E=(5,000-750)(1-25\%)=\boxed{€3,187.50}
+\]
+两部分分别折现：
+\[
+V_L=\frac{CF_D}{r_D}+\frac{CF_E}{r_E}=\frac{750}{5\%}+\frac{3,187.50}{12.142857\ldots\%}
+\]
+\[
+V_L=15,000+26,250=\boxed{€41,250}
+\]
 
 ### 生词
 financial acumen 财务敏锐度
@@ -1301,6 +1414,9 @@ The option to terminate an investment at some future time if the financial resul
 Amortization
 The process of allocating the cost of intangible long-term assets having a finite useful life to accounting periods; the allocation of the amount of a bond premium or discount to the periods remaining until bond maturity.
 
+Asymmetric information
+Also known as information asymmetry; the differential of information between corporate insiders and outsiders regarding the company’s performance and prospects. Managers typically have more information about the company’s performance and prospects than owners and creditors.
+
 **B**
 Board of directors
 A body or individual selected by a limited company’s member(s) or shareholder(s), in a manner determined by the company’s charter, that manages the company. Typically, for larger companies, boards of directors appoint and oversee executive management.
@@ -1345,7 +1461,26 @@ The process that companies use for decision making on capital investments—thos
 Capital investments
 An expenditure for an asset or resource with a useful life of more than one year.
 
+Capital-intensive businesses
+Companies or business activities that are characterized by a relatively low fixed asset turnover, a high percentage of capital expenditures to sales, or a high net-working-capital-to-sales ratio.
 
+Capital-light businesses
+Also known as asset light businesses, companies or business activities characterized by relatively high fixed asset turnover, a low percentage of capital expenditures to sales, or a low net-working-capital-to-sales ratio.
+
+Capital structure
+The mix of debt and equity that a company uses to finance its business; a company’s specific mix of long-term financing.
+
+Convertible debt
+A fixed-income instrument which combines the features of debt with equity via a contingent feature, allowing debtholders to exchange their claim for common shares at a predetermined fixed price in the future.
+
+Cost of capital
+The cost of financing for a company; the rate of return that suppliers of capital require as compensation for their contribution of capital (also called opportunity cost of funds).
+
+Cost of debt
+The required return on debt financing for a company, such as when it issues a bond, takes out a bank loan, or leases an asset through a finance lease.
+
+Cost of equity
+The return required by equity investors to compensate for both the time value of money and the risk. Also referred to as the required rate of return on common stock or the required return on equity.
 
 **D**
 Debt
@@ -1381,6 +1516,11 @@ An action or event that reduces available funds or delays cash inflows.
 Depreciation
 The process of systematically allocating the cost of long-lived (tangible) assets to the periods during which the assets are expected to provide economic benefits.
 
+Debt tax shield
+The tax benefit from interest paid on debt being tax deductible from income, equal to the marginal tax rate multiplied by the value of the debt.
+
+
+
 **E**
 Equity
 Ownership interest in an entity. A residual claim on the assets of an entity after more senior claims, such as debt, have been satisfied. Also known as net assets.
@@ -1408,6 +1548,9 @@ The use of debt in the capital structure. Measured using ratios such as operatin
 
 Free cash flow
 The actual cash that would be available to the company’s investors after making all investments necessary to maintain the company as an ongoing enterprise (also referred to as free cash flow to the firm); the internally generated funds that can be distributed to the company’s investors (e.g., shareholders and bondholders) without impairing the value of the company.
+
+Free cash flow hypothesis
+The hypothesis that higher debt levels discipline managers by forcing them to make fixed debt service payments and by reducing the company’s free cash flow.
 
 **G**
 General partners (GPs)
@@ -1493,6 +1636,12 @@ A legal and tax classification of a business, specific to a jurisdiction, that d
 Operating cycle
 The length of time between a company’s acquisition of goods or raw materials and the collection of cash from sales to customers.
 
+Operating leverage
+The sensitivity of a firm’s operating profit to a change in revenues, determined by the composition of fixed and variable operating costs.
+
+Optimal capital structure
+The capital structure at which the value of the company is maximized.
+
 **P**
 Pass-through businesses
 Businesses that, by virtue of their organizational form and/or other legal and regulatory attributes, do not pay entity-level taxes on income or loss; income or loss is passed through to owners, who pay personal taxes.
@@ -1541,6 +1690,9 @@ The option to adjust prices when demand or supply varies from what is forecast.
 
 Production flexibility option
 The option to alter production when demand varies from what is forecast.
+
+Pecking order theory
+The theory that managers consider how their actions might be interpreted by outsiders and thereby order their preferences for various forms of corporate financing. Forms of financing that are least visible to outsiders (e.g., internally generated funds) are most preferable to managers, and those that are most visible (e.g., equity issuance) are least preferable.
 
 **Q**
 Quick ratio
@@ -1605,6 +1757,9 @@ A financial statement that details the movement of cash over a period. The state
 Sunk costs
 A cost that has already been incurred.
 
+Static trade-off theory of capital structure
+A theory pertaining to a company’s optimal capital structure; the optimal level of debt is found at the point where additional debt would cause the costs of financial distress to increase by a greater amount than the benefit of the additional tax shield.
+
 **T**
 Transition risks
 Economic and financial losses from the transition to a lower-carbon economy in response to climate change—for example, the abandonment of an oil well that is no longer economical.
@@ -1615,6 +1770,14 @@ A solicitation by a current or prospective shareholder to other shareholders to 
 Total working capital
 The difference between current assets and current liabilities.
 
+Target capital structure
+Management’s desired proportions of debt and equity financing, usually stated on a book value basis or indirectly using a financial leverage metric, such as net or gross debt to EBITDA or credit rating.
+
 **V**
 Voting rights
 The power of shareholders to cast votes in corporate elections for directors and other matters submitted to a shareholder vote.
+
+**W**
+Target capital structure
+Management’s desired proportions of debt and equity financing, usually stated on a book value basis or indirectly using a financial leverage metric, such as net or gross debt to EBITDA or credit rating.
+
