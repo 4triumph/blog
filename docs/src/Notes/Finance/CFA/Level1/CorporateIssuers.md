@@ -839,7 +839,62 @@ C. Oldtech
 **原因：** Oldtech 的固定成本占比高，**经营杠杆（operating leverage）高**。收入增长放缓时，固定成本难以同步减少，利润因此更容易大幅变化。Newtech 的变动成本占比较高，成本能随收入变化而调整，经营杠杆较低。
 
 **易错点：** 不要仅凭 Oldtech 处于成熟期，就认定它的利润一定更稳定；本题要根据两家公司的**成本结构**判断。
+
 ---
+40.题目：The objective of __________ is to maximize profit in situations where different customers have different willingness or ability to pay.
+
+当不同客户的支付意愿或支付能力不同时，__________的目标是实现利润最大化。
+
+- A. Unit economics（单位经济分析）
+- B. Price discrimination（价格歧视）
+- C. Functional separation（职能分离）
+
+**解题关键：**  
+题干强调客户的支付意愿或能力不同，因此企业可以对不同客户收取不同价格，以增加利润。这属于价格歧视。
+
+**正确答案：B. Price discrimination**
+
+**选项辨析：**
+- **Unit economics**：分析每单位产品或每位客户的收入、成本与盈利能力。
+- **Price discrimination**：根据客户支付意愿等差异，对相同或类似产品收取不同价格，价格差异并非源于成本差异。
+- **Functional separation**：将不同业务职能分开。
+
+---
+41.题目：Two examples of pricing models for complex products are ____________, which refers to incentivizing or requiring the purchase of multiple products or services, and ____________, which combines a low price on an initial purchase of a durable good with high-margin prices on associated consumables.
+
+复杂产品的两种定价模式是：________，通过激励或要求客户同时购买多个产品或服务；以及________，以低价出售耐用品，再通过相关耗材获取高利润。
+
+A. bundling; razor, razorblade
+B. fractional ownership; subscriptions
+C. horizontal integration; network effects
+
+**解题关键：**
+- 同时购买多个产品或服务 → **Bundling（捆绑定价）**
+- 耐用品低价、配套耗材高利润 → **Razor, razorblade（剃须刀—刀片模式）**
+
+**正确答案：A. bundling; razor, razorblade**
+
+**概念与例子：**
+- **Bundling**：将多个产品或服务组合销售，组合价通常低于分别购买的总价。例如：设备＋维修保养套餐。
+- **Razor, razorblade**：耐用品以接近成本的低价出售，通过持续销售配套耗材盈利。例如：打印机＋墨盒、咖啡机＋咖啡胶囊。
+---
+42.题目：____________ involves user communities that enable voluntary collaboration between users of a product with generally a small amount of moderation and oversight by the community host or operator.
+________涉及用户社区，让产品用户自愿协作，而社区运营方通常只进行少量管理和监督。
+
+- A. Franchising（特许经营）
+- B. Crowdsourcing（众包）
+- C. A loyalty program（客户忠诚计划）
+
+**解题关键：**  
+用户自愿协作、共同贡献内容，平台主要制定规则并管理内容，这属于众包。
+
+**正确答案：B. Crowdsourcing**
+
+**错选辨析：**
+- **Franchising**：企业授权加盟商使用品牌和经营模式，例如连锁餐饮加盟。
+- **Crowdsourcing**：汇集众多参与者的贡献，例如维基百科、用户评论、开源软件。
+- **Loyalty program**：通过积分、会员奖励等方式鼓励客户重复购买。
+
 ---
 ---
 
@@ -1393,6 +1448,23 @@ semiconductor wafers 半导体晶圆
 fungible 可互换的
 obviating 消除
 subscription 订阅
+cohorts 队列
+brick-and-mortar rental stores 实体租赁店
+exclusive content 独家内容
+Omnichannel 全渠道
+proprietary consumables 专有耗材
+albeit 尽管如此
+no-hassle returns 无忧退货
+assortment 产品系列
+demonstrably 有据可证地
+warranty 保修
+ingredient 配料
+absorb 吸收；承受
+cohort 群体
+royalty 版税
+exponentially 指数级增长
+disintermediated 去中介化
+hybrid hotel  混合型酒店
 
 ### Glossary
 **A**
@@ -1417,6 +1489,12 @@ The process of allocating the cost of intangible long-term assets having a finit
 Asymmetric information
 Also known as information asymmetry; the differential of information between corporate insiders and outsiders regarding the company’s performance and prospects. Managers typically have more information about the company’s performance and prospects than owners and creditors.
 
+Add-on pricing
+A pricing approach based on high-margin optional features, customizations, and additional content.
+
+Auction/reverse auction models
+Pricing models that establish prices through bidding (by sellers in the case of reverse auctions).
+
 **B**
 Board of directors
 A body or individual selected by a limited company’s member(s) or shareholder(s), in a manner determined by the company’s charter, that manages the company. Typically, for larger companies, boards of directors appoint and oversee executive management.
@@ -1429,6 +1507,12 @@ Investors in an entity’s securitized debt claims, such as commercial paper, no
 
 Bond indenture
 A legal document between a bond issuer and investors that governs each party’s rights and responsibilities.
+
+Bundling
+A pricing approach that refers to combining multiple products or services so that customers are incentivized or required to buy them together.
+
+Business model
+A concise description of how a business works and makes revenues and profits, including its customers, products or services, channels for reaching customers, and pricing.
 
 **C**
 Companies
@@ -1482,6 +1566,21 @@ The required return on debt financing for a company, such as when it issues a bo
 Cost of equity
 The return required by equity investors to compensate for both the time value of money and the risk. Also referred to as the required rate of return on common stock or the required return on equity.
 
+Channels
+Venues where a company markets and/or delivers its products and services.
+
+Commodities
+A product or service from a firm that is indistinguishable from products or services of competing firms, usually conforming to a common standard or grade imposed by convention or regulation.
+
+Commodity producers
+A firm that makes and/or sells commodities.
+
+Contract manufacturers
+Companies that make products for other companies that meet specific terms and specifications.
+
+Crowdsourcing
+A business model that enables users to contribute directly to a product, service, or online content.
+
 **D**
 Debt
 A claim against an entity to receive cash, stock, or other assets at a future date. From the perspective of the debtor or borrower, an obligation to pay cash, stock, or other assets at a future date. Generally, debt claims are unconditional and are senior to equity claims.
@@ -1519,7 +1618,14 @@ The process of systematically allocating the cost of long-lived (tangible) asset
 Debt tax shield
 The tax benefit from interest paid on debt being tax deductible from income, equal to the marginal tax rate multiplied by the value of the debt.
 
+Differentiated products
+A product or service from a firm that is distinguishable or distinct from those of competing firms. It is customers who determine and value whether a product is differentiated.
 
+Direct sales
+Marketing and/or delivering products and services to customers without an intermediary or third party between the customer and seller.
+
+Dynamic pricing
+A pricing approach that charges different prices at different times. Specific examples include off-peak pricing, “surge” pricing, and “congestion” pricing.
 
 **E**
 Equity
@@ -1552,6 +1658,12 @@ The actual cash that would be available to the company’s investors after makin
 Free cash flow hypothesis
 The hypothesis that higher debt levels discipline managers by forcing them to make fixed debt service payments and by reducing the company’s free cash flow.
 
+Franchising
+A situation where an owner of an asset and associated intellectual property divests the asset and licenses intellectual property to a third-party operator (franchisee) in exchange for royalties. Franchisees operate under the constraints of a franchise agreement.
+
+Freemium business model
+A pricing approach that allows customers a certain level of usage or functionality at no charge. Those who wish to use more must pay.
+
 **G**
 General partners (GPs)
 Private fund managers responsible for sourcing and deploying capital from limited partner investors over an investment life cycle and distributing returns to those investors over a finite investment holding period.
@@ -1571,6 +1683,9 @@ When a potential acquirer seeks to acquire a company (the target) against the wi
 
 Hurdle rate
 Also called “preferred return.” The minimum rate of return on investment that a fund must reach before a GP receives carried interest.
+
+Hidden revenue business model
+Business models that provide services to users at no charge and generate revenues elsewhere.
 
 **I**
 Initial public offering (IPO)
@@ -1604,7 +1719,8 @@ Outside investors in a private market fund who own a fractional interest in a li
 Liquidity
 The extent to which a company is able to meet its short-term obligations using cash flows and those assets that can be readily transformed into cash.
 
-
+Licensing arrangements
+Rights to produce a product or have access to intangible assets using someone else’s brand name in return for a royalty (often a percentage of revenues).
 
 **M**
 Material
@@ -1629,6 +1745,9 @@ Working capital excluding short-term items unrelated to business operations, suc
 Net present value (NPV)
 The present value of an investment’s cash inflows (benefits) minus the present value of its cash outflows (costs).
 
+Network effects
+A business model that enables users to contribute directly to a product, service, or online content.
+
 **O**
 Organizational form
 A legal and tax classification of a business, specific to a jurisdiction, that determines the organization’s legal identity, owner–manager relationship, owner liability, taxation, and access to financing.
@@ -1641,6 +1760,9 @@ The sensitivity of a firm’s operating profit to a change in revenues, determin
 
 Optimal capital structure
 The capital structure at which the value of the company is maximized.
+
+Omnichannel
+Refers to a company selling its products or services in multiple channels, such as in store and online.
 
 **P**
 Pass-through businesses
@@ -1694,6 +1816,15 @@ The option to alter production when demand varies from what is forecast.
 Pecking order theory
 The theory that managers consider how their actions might be interpreted by outsiders and thereby order their preferences for various forms of corporate financing. Forms of financing that are least visible to outsiders (e.g., internally generated funds) are most preferable to managers, and those that are most visible (e.g., equity issuance) are least preferable.
 
+Penetration pricing
+A discount pricing approach used when a firm willingly sacrifices margins in order to build scale and market share.
+
+Price discrimination
+A pricing approach that charges different prices to different customers based on their willingness to pay.
+
+Pricing power
+A company’s ability to set prices and other economic terms with customers without affecting its sales volumes.
+
 **Q**
 Quick ratio
 A measure of liquidity that is the ratio of cash, marketable securities, and receivables to current liabilities.
@@ -1704,6 +1835,9 @@ A right, but not an obligation, for management to make a decision with respect t
 
 Return on invested capital (ROIC)
 A measure of the profitability of a company relative to the amount of capital invested by the equityholders and debtholders.
+
+Razor, razorblade pricing
+A pricing approach that combines a low price on a piece of equipment and high-margin pricing on repeat-purchase consumables.
 
 **S**
 Security
@@ -1760,6 +1894,12 @@ A cost that has already been incurred.
 Static trade-off theory of capital structure
 A theory pertaining to a company’s optimal capital structure; the optimal level of debt is found at the point where additional debt would cause the costs of financial distress to increase by a greater amount than the benefit of the additional tax shield.
 
+Segmenting
+A process of identifying and grouping customers by decision-useful attributes.
+
+Supply chain
+The sequence of processes involved in the creation and delivery of a physical product to the end customer, both within and external to a firm, regardless of whether those steps are performed by a single firm.
+
 **T**
 Transition risks
 Economic and financial losses from the transition to a lower-carbon economy in response to climate change—for example, the abandonment of an oil well that is no longer economical.
@@ -1773,9 +1913,28 @@ The difference between current assets and current liabilities.
 Target capital structure
 Management’s desired proportions of debt and equity financing, usually stated on a book value basis or indirectly using a financial leverage metric, such as net or gross debt to EBITDA or credit rating.
 
+Tiered pricing
+A pricing approach that charges different prices to different buyers, commonly based on volume purchased.
+
+**U**
+Unit economics
+The expression of revenues and costs on a per-unit basis.
+
 **V**
 Voting rights
 The power of shareholders to cast votes in corporate elections for directors and other matters submitted to a shareholder vote.
+
+Value added resellers
+Businesses that distribute a product and also handle more complex aspects of product installation, customization, service, or support.
+
+Value-based pricing
+Pricing set primarily by reference to the value of the product or service to customers.
+
+Value chain
+The systems and processes in a firm that create value for its customers.
+
+Value proposition
+The product or service attributes valued by a firm’s target customer that lead those customers to prefer that firm’s offering.
 
 **W**
 Target capital structure
